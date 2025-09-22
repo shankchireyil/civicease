@@ -4,9 +4,8 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
 from flaskblog import app, db, bcrypt
 from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post
+from flaskblog.models import User, Post, Review
 from flask_login import login_user, current_user, logout_user, login_required
-
 
 @app.route("/")
 @app.route("/home")
@@ -92,18 +91,34 @@ def account():
                            image_file=image_file, form=form)
 
 
-@app.route("/post/new", methods=['GET', 'POST'])
+@app.route("/add_comment", methods=['POST'])
 @login_required
-def new_post():
-    form = PostForm()
-    if form.validate_on_submit():
-        post = Post(title=form.title.data, content=form.content.data, author=current_user)
-        db.session.add(post)
-        db.session.commit()
-        flash('Your post has been created!', 'success')
+def add_comment():
+    
+    
+    # Get form data
+    post_id = request.form.get('post_id')
+    comment_text = request.form.get('comment')
+    
+    if not post_id or not comment_text:
+        flash('Invalid comment data', 'danger')
         return redirect(url_for('home'))
-    return render_template('create_post.html', title='New Post',
-                           form=form, legend='New Post')
+    
+    # Check if user already has a review for this post
+    existing_review = Review.query.filter_by(user_id=current_user.id, post_id=post_id).first()
+    
+    if existing_review:
+        # Update existing review
+        existing_review.content = comment_text
+        flash('Comment updated!', 'success')
+    else:
+        # Create new review
+        new_review = Review(content=comment_text, user_id=current_user.id, post_id=post_id)
+        db.session.add(new_review)
+        flash('Comment saved!', 'success')
+    
+    db.session.commit()
+    return redirect(url_for('home'))
 
 
 

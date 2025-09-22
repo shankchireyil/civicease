@@ -30,6 +30,7 @@ class Post(db.Model):
     title = db.Column(db.String(100), nullable=False)
     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     content = db.Column(db.Text, nullable=False)
+    reviews = db.relationship('Review', backref='post', lazy=True)
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
@@ -45,8 +46,7 @@ class Review(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     post_id = db.Column(db.Integer, db.ForeignKey('post.id'), nullable=False)
 
-    post = db.relationship('Post', lazy=True)
-    user = db.relationship('User', lazy=True)
+    user = db.relationship('User', backref='reviews', lazy=True)
 
     def __repr__(self):
         return f"Review('user : {self.user_id}', 'post : {self.post_id}\nreview : {self.content}')"
