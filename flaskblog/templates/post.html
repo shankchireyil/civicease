@@ -1,39 +1,72 @@
 {% extends "layout.html" %}
 {% block content %}
-  <article class="media content-section">
-    <img class="rounded-circle article-img" src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
-    <div class="media-body">
-      <div class="article-metadata">
-        <a class="mr-2" href="#">{{ post.author.username }}</a>
-        <small class="text-muted">{{ post.date_posted.strftime('%Y-%m-%d') }}</small>
-        {% if post.author == current_user %}
-          <div>
-            <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{ url_for('update_post', post_id=post.id) }}">Update</a>
-            <button type="button" class="btn btn-danger btn-sm m-1" data-toggle="modal" data-target="#deleteModal">Delete</button>
-          </div>
-        {% endif %}
-      </div>
-      <h2 class="article-title">{{ post.title }}</h2>
-      <p class="article-content">{{ post.content }}</p>
-    </div>
-  </article>
-  <!-- Modal -->
-  <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="deleteModalLabel">Delete Post?</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-primary">{{ post.title }}</h3>
+                    {% if post.rss_pubDate %}
+                        <small class="text-muted">
+                            <i class="fas fa-calendar"></i> Published: {{ post.rss_pubDate.strftime('%d %b %Y') }}
+                        </small>
+                    {% endif %}
+                    <hr>
+                    <p class="card-text">{{ post.rss_description }}</p>
+                    {% if post.rss_link %}
+                        <a href="{{ post.rss_link }}" target="_blank" class="btn btn-outline-primary btn-sm mb-2">
+                            <i class="fas fa-external-link-alt"></i> Visit Service
+                        </a>
+                    {% endif %}
+                    <hr>
+                    <!-- Comments Section -->
+                    {% if current_user.is_authenticated %}
+                        <form method="POST" action="{{ url_for('add_comment') }}">
+                            <input type="hidden" name="post_id" value="{{ post.id }}">
+                            <div class="mb-2">
+                                <textarea class="form-control" name="comment" rows="3" placeholder="Add your comment..."></textarea>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" name="reminder_enabled" id="reminder_{{ post.id }}" value="1">
+                                <label class="form-check-label" for="reminder_{{ post.id }}">📧 Set reminder</label>
+                            </div>
+                            <div class="mb-2" id="datetime_container_{{ post.id }}" style="display:none;">
+                                <input type="datetime-local" class="form-control" name="reminder_datetime">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-sm">Save Comment</button>
+                        </form>
+                        <script>
+                            document.getElementById('reminder_{{ post.id }}').addEventListener('change', function() {
+                                document.getElementById('datetime_container_{{ post.id }}').style.display = this.checked ? 'block' : 'none';
+                            });
+                        </script>
+                    {% else %}
+                        <small class="text-muted">
+                            <a href="{{ url_for('login') }}">Login</a> to add comments and set reminders
+                        </small>
+                    {% endif %}
+                    <hr>
+                    <!-- Show all comments -->
+                    {% if post.reviews %}
+                        <div class="comments-section">
+                            <h6 class="small text-muted mb-2">Comments:</h6>
+                            {% for review in post.reviews %}
+                                <div class="small mb-2 p-2 bg-white rounded border">
+                                    <div class="d-flex justify-content-between">
+                                        <strong>{{ review.user.username }}</strong>
+                                        <small class="text-muted">{{ review.date_posted.strftime('%d/%m/%y') }}</small>
+                                    </div>
+                                    <div>{{ review.content }}</div>
+                                    {% if review.reminder_enabled %}
+                                        <span class="badge badge-info badge-sm">📧 Reminder</span>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <form action="{{ url_for('delete_post', post_id=post.id) }}" method="POST">
-            <input class="btn btn-danger" type="submit" value="Delete">
-          </form>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 {% endblock content %}

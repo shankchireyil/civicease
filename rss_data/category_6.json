@@ -1,0 +1,149 @@
+{
+  "category_id": 6,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:30.962057",
+  "items": [
+    {
+      "title": "Apply for Senior Citizen Pilgrimage Scheme, Rajasthan",
+      "link": "https://edevasthan.rajasthan.gov.in/forms/home.aspx",
+      "description": "The Rajasthan Senior Citizen Pilgrimage Scheme, also known as the Mukhyamantri Tirth Yatra Yojana, provides free pilgrimage trips for senior citizens in Rajasthan. The scheme covers the cost of travel (train or flight), accommodation, and food, allowing eligible individuals to visit various religious sites both within and outside the state.",
+      "pubDate": "Thu, 31 Jul 2025 14:33:17 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Book Online Packages for Lakshadweep Tourism",
+      "link": "https://samudram.utl.gov.in/sprt_Packages.aspx",
+      "description": "Tourists can book online travel packages for Lakshadweep, including popular options like Samudram packages, Bangaram Island stays, Kavaratti Island resorts, and scuba diving adventures. This service ensures hassle-free planning for visitors seeking a memorable island experience.",
+      "pubDate": "Thu, 05 Dec 2024 16:29:06 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "STARS e-Ticketing Services, Andaman and Nicobar Administration",
+      "link": "https://dss.andamannicobar.gov.in/ShipETicketingWeb/Login.jsp",
+      "description": "The Andaman and Nicobar Administration's STARS portal facilitates online ship ticket reservations for foreshore, inter-island, and mainland routes. It offers a convenient booking experience for travelers.",
+      "pubDate": "Fri, 24 Oct 2025 09:56:36 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Registration of Hotelier, Odisha",
+      "link": "https://odishatourism.gov.in/content/tourism/en/dot/quickLinks/hotelier-registration.html",
+      "description": "Enroll as a hotelier with Odisha Tourism, where you can showcase your hotel's information, promotions, and special offers to a global audience, expanding your reach and visibility.",
+      "pubDate": "Tue, 16 Apr 2024 14:59:28 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Registration of Travel Agent, Odisha",
+      "link": "https://odishatourism.gov.in/content/tourism/en/dot/quickLinks/travel-agent-registration.html",
+      "description": "Register as a travel agent, a travel agent is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination.",
+      "pubDate": "Tue, 16 Apr 2024 14:55:51 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Booking of ECO-Retreat Destinations, Odisha",
+      "link": "https://ecoretreat.odishatourism.gov.in/",
+      "description": "Book eco-retreat destinations, the luxurious glamping event on the Ramchandi beach is a perfect escapade for solitude seekers. A leisurely drive along the Puri-Konark marine drive &amp; visiting heritage monument Konark temple would be an enchanting experience.",
+      "pubDate": "Tue, 16 Apr 2024 14:51:52 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Search Indian Fairs and Festivals Upcoming Events, Past Events and All Events",
+      "link": "https://utsav.gov.in/",
+      "description": "The Utsav Portal, initiated by the Ministry of Tourism, is a digital platform designed to spotlight festivals, events, and live darshans throughout India. Its primary objective is to boost tourism in various regions of the country and elevate their status as sought-after tourist spots. The portal serves as a comprehensive resource offering up-to-date details on fairs and festivals, presenting month-wise and state-wise event calendars for easy reference.",
+      "pubDate": "Tue, 12 Mar 2024 12:31:26 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Book/Cancel Ticket, Andaman &amp; Nicobar Island",
+      "link": "https://ants.andaman.gov.in/Citizen/BookticketNew.aspx",
+      "description": "Citizen who wish to avail ticketing service has to register by providing his/her personal details along with correct mobile number. No user is allowed to register more than once with the same mobile number.",
+      "pubDate": "Thu, 15 Feb 2024 16:42:59 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Obtaining Entry Permit to Lakshadweep",
+      "link": "https://epermit.utl.gov.in/",
+      "description": "According to the Laccadive, Minicoy and Amindivi Islands (Restriction on Entry and Residence) Rules, 1967, every person, who is not a native of these islands, shall have to obtain a permit in the Prescribed Form from the Competent authority, for entering into and residing in these islands. Only the Government Officials and Armed Force members working or visiting these islands and their family members are exempted from this.",
+      "pubDate": "Mon, 29 Jan 2024 12:00:44 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Goa State Portal",
+      "link": "https://www.goa.gov.in/",
+      "description": "The official web portal for the Government of Goa state government. Information about the government departments, their functions, and services is provided. Details of initiatives, budget, and government orders are given. Information is also provided on the famous tourist destinations, population, area etc.",
+      "pubDate": "Tue, 23 Jan 2024 11:21:41 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Recruitment of Daastan-e-Shahadat, Punjab",
+      "link": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=5rS5ATz8BP&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+      "description": "The Department of Tourism &amp; Cultural Affairs through Punjab Heritage &amp; Tourism Promotion Board invites on-line applications from eligible candidates for recruitment to the following posts as per minimum wages announced by Government of Punjab from time-to-time on purely Contract basis to be deployed in the Daastan-e-Shahadat Museum at Sri Chamkaur Sahib, District Ropar, Punjab",
+      "pubDate": "Thu, 17 Aug 2023 10:57:51 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Tented Accommodation and Camping Site, Punjab",
+      "link": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=7Y1aLzcLE2&newLink=Y&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+      "description": "The objecive of the scheme is to provide suitable accommodation to the domestic and foreign tourists interested in eco, adventure, wildlife, and pilgrimage tourism. The growing footfall of tourists in Punjab has increased the requirement of accommodation units at different tourist destinations. Since permanent construction in the protected areas is either not permissible or not feasible, therefore, in order to meet the demand of tourists, camping facilities and tented accommodation can be a good...",
+      "pubDate": "Thu, 17 Aug 2023 10:20:16 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Bed and Breakfast Homestay Scheme, Punjab",
+      "link": "https://eservices.punjab.gov.in/serviceLinkHome.html?serviceToken=RMaeWxfIrR&newLink=N&%3Ccsrf:token%20uri=%27serviceLinkHome.html%27/%3E",
+      "description": "With the aim of providing comfortable Bed &amp; Breakfast (BnB)/Home Stay facilities and to supplement the availabilty of accommodation across the state, Department of Tourism registers fully operational rooms of private properties as Bed &amp; Breakfast HomeStay units in the state of Punjab.",
+      "pubDate": "Thu, 17 Aug 2023 10:10:25 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Check Ship Ticket Status, Lakshadweep",
+      "link": "https://lakport.utl.gov.in/ship_online_ticketstatus.aspx",
+      "description": "Check online Ship Ticket Status by Web Based Ship Ticket Advance Reservation Lakshadweep.",
+      "pubDate": "Tue, 05 Mar 2024 17:10:49 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Check Seats available (Point to Point) for next Two Months, Lakshadweep",
+      "link": "https://lakport.utl.gov.in/Ship_online_SeatsAvailBetwnIsland.aspx",
+      "description": "Get services for Check Seats available (Point to Point) for next Two Months, Lakshadweep",
+      "pubDate": "Thu, 27 Jul 2023 14:37:08 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Know about Ship Schedule by Webstar, Lakshadweep",
+      "link": "https://lakport.utl.gov.in/ship_online_programme.aspx",
+      "description": "Get services for Know about Ship Schedule by Webstar, Lakshadweep",
+      "pubDate": "Thu, 27 Jul 2023 14:12:14 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Apply for Web Based Ship Ticket Advance Reservation, Lakshadweep",
+      "link": "https://lakport.utl.gov.in/Home.aspx",
+      "description": "Get services for Web Based Ship Ticket Advance Reservation, Lakshadweep",
+      "pubDate": "Thu, 27 Jul 2023 14:07:21 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Winter Helicopter Service in Kargil, Leh for General Public, Ladakh",
+      "link": "https://ladakh.gov.in/winter-helicopter-service-in-kargil-leh-for-general-public-to-start-from-29-december/",
+      "description": "Get services for Online Booking by Ladakh Heli Services such as Leh, Drass, Kargil, Lingshed, Nyerak, Padum, Zanskar etc.",
+      "pubDate": "Tue, 08 Jul 2025 16:39:46 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Apply for Helicopter Yatra to Shri Kedarnath Dham",
+      "link": "https://heliyatra.irctc.co.in/",
+      "description": "Get services for Chardham Yatra Registration on Uttarakhand Govt. Portal is mandatory to book Helicopter Service online.",
+      "pubDate": "Tue, 20 May 2025 14:45:41 +0530",
+      "category": "Travel and Tourism"
+    },
+    {
+      "title": "Apply online Char Dham Yatra and Hemkund Sahib Registration, Uttarakhand",
+      "link": "https://registrationandtouristcare.uk.gov.in/",
+      "description": "Online services for Char Dham Yatra and Hemkund Sahib Registration. There is no fee involved in the Tourist registration process.",
+      "pubDate": "Wed, 14 Jun 2023 11:19:40 +0530",
+      "category": "Travel and Tourism"
+    }
+  ]
+}

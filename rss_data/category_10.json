@@ -1,0 +1,149 @@
+{
+  "category_id": 10,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:32.418200",
+  "items": [
+    {
+      "title": "Complaint Registration for India Post",
+      "link": "https://crm.indiapost.gov.in/customer/home",
+      "description": "The India Post Complaint Registration portal provides a convenient platform for customers to register and track complaints related to postal services, including mail delivery, parcels, money orders, and other services. This digital grievance redressal system ensures prompt resolution by connecting customers directly with concerned authorities. Users can submit complaints, check status updates, and receive timely responses. The initiative reflects India Post’s commitment to enhancing customer satisfaction...",
+      "pubDate": "Fri, 17 Oct 2025 15:04:49 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Resolve Your Property Issues With Bangalore Development Authority, Karnataka",
+      "link": "https://app.bda.karnataka.gov.in/bdaappt-citizen/login",
+      "description": "This platform provides a user-friendly mechanism for citizens to raise and resolve issues related to Bangalore Development Authority (BDA) services. Residents can register complaints, track their status, and receive timely responses from the concerned departments. It promotes transparency and accountability by ensuring that grievances about housing, property, or development-related matters are addressed efficiently, offering a hassle-free way for citizens to communicate with BDA and seek redressal...",
+      "pubDate": "Fri, 17 Oct 2025 14:32:00 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "List of Nodal Public Grievance Officers",
+      "link": "https://pmopg.gov.in/CitizenReforms/Home/NodalAuthorityForAppeal",
+      "description": "This resource provides an official list of Nodal Public Grievance Officers designated across ministries and departments. Citizens can refer to this list to identify the correct authority for submitting appeals or grievances. The availability of such information enhances transparency, ensures accountability, and streamlines redressal processes by directing concerns to responsible officers. It empowers individuals to seek timely resolution of their issues and strengthens the grievance management system...",
+      "pubDate": "Thu, 16 Oct 2025 14:31:49 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Login for Trial Monitoring System by Bihar Police, Bihar",
+      "link": "https://tms.bihar.gov.in/Login.aspx",
+      "description": "The Trial Monitoring System &amp;#40;TMS&amp;#41; by Bihar Police is a digital platform designed to monitor and track the progress of trials and judicial proceedings. Authorized users can log in to access detailed case information, updates, and timelines for better coordination between police and judiciary. This system enhances accountability, ensures faster case follow-ups, and reduces delays in legal processes. By providing transparency and structured monitoring, the TMS contributes to strengthening...",
+      "pubDate": "Thu, 16 Oct 2025 14:10:38 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Send Feedback Mukh Mantri Punjab Cancer Raahat Kosh, Punjab",
+      "link": "https://mmpcrk.gov.in/feedback.php",
+      "description": "This portal invites citizens to share valuable feedback on the Mukh Mantri Punjab Cancer Raahat Kosh initiative. Users can submit suggestions, concerns, or experiences to improve the effectiveness of services provided under this health relief scheme. The feedback mechanism ensures transparency, promotes accountability, and encourages citizen participation in strengthening the program. It allows the government to better address patient needs, enhance support systems, and refine service delivery, thereby...",
+      "pubDate": "Thu, 16 Oct 2025 12:40:28 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Check Grievance Application Status, Andhra Pradesh",
+      "link": "https://meekosam.ap.gov.in/ApplicationStatus.aspx",
+      "description": "To check the status of a grievance application in Andhra Pradesh, citizens can utilize the Spandana platform, an online portal for grievance redressal. Spandana allows citizens to register grievances through various channels like the GSWS, 1902 Call Center, mobile app, web application, and during collectorate grievance days (Spandana Monday). To check the status, citizens need their grievance registration number or other relevant details.",
+      "pubDate": "Thu, 31 Jul 2025 14:38:47 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Online Complaints for Water Supply and Sewerage, Punjab",
+      "link": "https://pwssb.punjab.gov.in/complaint-form/",
+      "description": "Punjab residents can file online complaints regarding water supply and sewerage issues through the official Punjab government portal or the respective municipal corporation websites. These platforms allow citizens to report problems like water leakage and sewage oerflow.",
+      "pubDate": "Thu, 31 Jul 2025 12:33:48 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Court Case Monitoring System, Bihar",
+      "link": "https://ccms.bihar.gov.in/CMS/Login.aspx",
+      "description": "The Bihar Court Case Monitoring System &amp;#40;CCMS&amp;#41; is a digital platform designed to streamline and track legal workflows within government departments. It enables departments to monitor court cases, ensure timely follow-ups, and improve inter-departmental coordination, ultimately reducing case backlogs and enhancing legal compliance.",
+      "pubDate": "Mon, 23 Jun 2025 16:25:47 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Online FIR Status Search, Haryana",
+      "link": "https://haryanapolice.gov.in/Citizen_login",
+      "description": "The Haryana Police offers an online facility for citizens to check the status of their First Information Report (FIR). This service allows users to search for FIR details by entering specific information such as the FIR number, year, and the concerned police station. It ensures transparency and provides easy access to case updates without the need to visit a police station. The platform is part of Haryana Police’s digital initiative to enhance public convenience and trust.",
+      "pubDate": "Fri, 19 Sep 2025 17:04:32 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Citizens Online Inform Police, Haryana",
+      "link": "https://haryanapolice.gov.in/CitizenTips/CitizenTips?From=LFhlihlx/W49VSlBvdGc4w==",
+      "description": "The Haryana Police provides an online service for citizens to report information related to crimes. Users can fill out forms detailing the nature of the incident, personal information, and suspect details. This platform enhances transparency and enables the public to share important information with law enforcement conveniently and securely, supporting community safety and crime prevention efforts.",
+      "pubDate": "Fri, 30 May 2025 17:07:53 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Apply for RTI (Right to Information Act 2005), Punjab",
+      "link": "https://connect.punjab.gov.in/service/rti/rti1",
+      "description": "The Right to Information (RTI) Act, 2005 empowers citizens to seek timely access to government information. Punjab residents can use this online portal to file RTI applications and appeals. It provides access to key details such as Public Information Officers (PIOs), First Appellate Authorities, and other RTI disclosures. Developed under the Department of Personnel and Training, this platform enhances transparency and accountability by facilitating quick and easy access to public information across...",
+      "pubDate": "Fri, 09 May 2025 16:45:37 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Student Register Grievance on Education Portal, Madhya Pradesh",
+      "link": "https://educationportal.mp.gov.in/Shikayat/Public/Grievance_Main.aspx",
+      "description": "Students in Madhya Pradesh can submit complaints or concerns online through the Education Portal's grievance system. Fill in the required details and submit your issue digitally. This system ensures transparency, quick resolution, and improved educational services through feedback and grievance redressal.",
+      "pubDate": "Wed, 22 Oct 2025 12:06:11 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Apply for Legal Aid for Women Victims of Dowry Practice, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "Women affected by dowry-related issues can seek free legal assistance through this scheme. The initiative helps victims access justice and legal support against dowry harassment.",
+      "pubDate": "Wed, 02 Apr 2025 15:48:42 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Application for Complaint about Atrocities, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "Citizens facing atrocities can report their grievances online through the Uttar Pradesh government’s portal. The system ensures prompt action against discrimination, violence, or any other form of injustice.",
+      "pubDate": "Wed, 02 Apr 2025 15:43:37 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "PMO Grievance Portal",
+      "link": "https://pmopg.gov.in/",
+      "description": "The PMO Grievance Portal is an online platform that allows Indian citizens to submit grievances related to government services and policies directly to the Prime Minister’s Office. It provides a transparent and efficient mechanism for addressing public concerns.",
+      "pubDate": "Wed, 12 Mar 2025 16:20:37 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Check Complaint Status in Real Estate Regulatory Authority, Karnataka",
+      "link": "https://rera.karnataka.gov.in/viewAllComplaints",
+      "description": "Consumers who have filed complaints with Karnataka RERA can track the progress of their grievances through this online service. The portal provides real-time updates on the status of complaints, including the latest actions taken by the authority, hearing schedules, and resolutions. This service ensures transparency in handling real estate-related issues, allowing complainants to stay informed about the progress of their cases.",
+      "pubDate": "Thu, 06 Mar 2025 14:30:50 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Apply for Complaint Registration in Real Estate Regulatory Authority, Karnataka",
+      "link": "https://rera.karnataka.gov.in/complaintHome",
+      "description": "Homebuyers, investors, and other stakeholders can register complaints against developers, agents, or other entities involved in real estate transactions. This platform allows users to submit grievances related to project delays, misrepresentation, unfair practices, and non-compliance with RERA guidelines. The complaints are processed as per regulatory procedures to ensure justice and consumer protection.",
+      "pubDate": "Wed, 05 Mar 2025 15:10:17 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Check Electricity Complaint/Service Request Enquiry Status, Bihar",
+      "link": "https://nbpdcl.co.in/(S(w1tzztns0fad4xzhs2nd1ual))/frmCompStatusEnquiryO.aspx",
+      "description": "Track the status of electricity-related complaints and service requests in Bihar through this online enquiry system.",
+      "pubDate": "Wed, 05 Mar 2025 14:46:14 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Online Electricity Complaint Registration System, Bihar",
+      "link": "https://nbpdcl.co.in/(S(w1tzztns0fad4xzhs2nd1ual))/frmGrievances.aspx",
+      "description": "File complaints related to electricity supply and services with the North Bihar Power Distribution Company Ltd. This portal allows citizens to raise issues and track resolutions.",
+      "pubDate": "Wed, 05 Mar 2025 14:43:51 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Importer Lodge Grievance by Ministry of Steel",
+      "link": "https://sims.steel.gov.in/sims/Grievance.aspx",
+      "description": "Importers facing issues related to steel imports can lodge grievances through this portal. Managed by the Ministry of Steel, the platform enables users to register complaints, track status, and seek redressal or clarification. It enhances transparency and accountability in the steel import process while ensuring that stakeholders have a formal mechanism to voice concerns directly to the authorities.",
+      "pubDate": "Mon, 28 Apr 2025 12:02:18 +0530",
+      "category": "Justice, Law and Grievances"
+    }
+  ]
+}

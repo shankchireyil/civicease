@@ -1,0 +1,149 @@
+{
+  "category_id": 4,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:30.388303",
+  "items": [
+    {
+      "title": "Apply for Marriage Registration, Bihar",
+      "link": "https://nibandhan.bihar.gov.in/Marriage/OnlineLoginMarriage.aspx",
+      "description": "In Bihar, applying for marriage registration involves submitting an application to the relevant Sub-Registrar's office, either online or offline, with required documents and fees. The process confirms the legal union of a couple and can be necessary for various government benefits and schemes.",
+      "pubDate": "Mon, 28 Jul 2025 14:32:26 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Online Birth and Death Certificate Download, Puducherry",
+      "link": "https://bdis.py.gov.in/BirthDeathCertificatedowload.aspx",
+      "description": "Residents of Puducherry can download birth and death certificates through the official government portal or at Common Service Centers. Users must log in, search for the required certificate using relevant details, pay applicable charges (if any), and download the digital certificate. This online service eliminates the need for physical visits, making it convenient and efficient to obtain legally valid vital records.",
+      "pubDate": "Fri, 30 May 2025 17:05:16 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Correction in Birth Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/1025",
+      "description": "This service enables applicants to request corrections in an already issued birth certificate in Punjab. The process requires filling out an application, providing supporting documents such as ID proof and the original birth certificate, and paying the applicable correction fee. Applications can be submitted online through the official portal, ensuring accurate personal information for legal and official use.",
+      "pubDate": "Fri, 30 May 2025 16:58:14 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Income Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/5660",
+      "description": "Punjab residents can apply online for an income certificate, a government-issued document that confirms an individual's annual income. This certificate is essential for availing benefits under various government schemes, applying for scholarships, securing fee concessions, or fulfilling eligibility criteria in official processes. It acts as proof of income for both legal and administrative purposes and ensures that deserving citizens receive income-based benefits and entitlements.",
+      "pubDate": "Fri, 30 May 2025 16:51:26 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Issuance of Death certificate /Non- Availability Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/1105",
+      "description": "Citizens can apply for a bilingual, digitized death certificate if the death has already been registered. If no death certificate exists, applicants can get a Non-Availability Certificate to enable the registration of the death through Delay Registration. This service ensures the proper legal documentation of death for administrative and official needs in Punjab.",
+      "pubDate": "Fri, 30 May 2025 16:41:07 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Issuance of Birth Certificate /Non Availability Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/1104",
+      "description": "This service allows citizens to apply for a bilingual, digitized birth certificate if the birth is already registered. If no birth certificate is available, applicants can obtain a Non-Availability Certificate, which serves as proof to register the birth through Delay Registration. The digital certificate is officially recognized for all legal and administrative purposes in Punjab.",
+      "pubDate": "Fri, 30 May 2025 16:40:03 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Addition of Name in Birth Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/1024",
+      "description": "Adding a name to a birth certificate requires submitting an application and supporting documents through the Connect Punjab portal or a Sewa Kendra. The application, along with the original birth certificate and other documents like a school certificate, passport, or immunization card, needs to be submitted, and a fee of ₹65 is payable.",
+      "pubDate": "Fri, 30 May 2025 16:38:46 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply General Caste Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/223",
+      "description": "General  Caste certificate is a document which is issued by the Government to prove that a person belongs to a specific caste. Also, caste certificates enable the citizens to avail reservation of seats in legislatures, claim fees concession in schools and colleges, obtain special quotas in educational institutions and receive upper age limit relaxation for certain jobs.",
+      "pubDate": "Fri, 30 May 2025 16:37:17 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Multiple Copies of Birth Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/1086",
+      "description": "This service allows citizens to request multiple digitized copies of an already issued birth certificate in Punjab. It is particularly useful when original copies are lost or additional certified copies are needed for official work like school admissions, passport issuance, or legal documentation. Applicants can conveniently apply online by submitting basic birth details and required identification. The digitally signed copies are valid and recognized by government authorities.",
+      "pubDate": "Fri, 30 May 2025 10:40:51 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Ujjwala Yojana Scheme, Rajasthan",
+      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
+      "description": "The Ujjwala Yojana Scheme in Rajasthan helps rehabilitate women involved in prostitution and prevents their children from entering unsafe environments. It empowers them to lead dignified lives by offering shelter, skill training, and education. Implemented through voluntary organizations, the scheme supports their reintegration into mainstream society, fostering independence and social respect.",
+      "pubDate": "Tue, 20 May 2025 11:54:56 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Widow Remarriage Gift Scheme, Rajasthan",
+      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
+      "description": "This scheme encourages the remarriage of widowed women receiving widow pensions by offering a financial gift of ₹30,000. Implemented by the Rajasthan Government, it aims to promote social acceptance of remarriage and provide financial support to women starting a new chapter of life. Eligible beneficiaries can apply online through the Social Justice and Empowerment Department portal.",
+      "pubDate": "Tue, 20 May 2025 12:00:31 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Application for Grant on Marriage of Disabled Person, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "The Uttar Pradesh government offers financial support to disabled individuals for marriage. Applicants need to provide disability proof, marriage documents, and income details.",
+      "pubDate": "Thu, 03 Apr 2025 14:20:41 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Couple Award Scheme to Promote Widow Marriage, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "This scheme encourages widow remarriage by offering financial incentives to couples who opt for it. Eligible individuals can apply online with necessary proof of marriage.",
+      "pubDate": "Thu, 03 Apr 2025 14:11:21 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Application for Birth Certificate by Brihanmumbai Municipal Corporation, Maharashtra",
+      "link": "https://portal.mcgm.gov.in/irj/portal/anonymous/qlbirthcertificate?guest_user=english",
+      "description": "The Brihanmumbai Municipal Corporation (BMC) issues birth certificates as legal proof of birth. Citizens can apply for a birth certificate online or at their respective ward offices by submitting the required details and documents.",
+      "pubDate": "Tue, 01 Apr 2025 16:47:24 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Income Certificate, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "Residents of Uttar Pradesh can apply for an income certificate, which serves as proof of income for various government benefits, scholarships, and reservation schemes. The certificate is issued based on verified income sources and is crucial for availing financial assistance from government programs.",
+      "pubDate": "Mon, 10 Mar 2025 16:25:14 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Caste Certificate, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "Residents of Uttar Pradesh belonging to Scheduled Castes (SC), Scheduled Tribes (ST), and Other Backward Classes (OBC) can apply for a caste certificate through this portal. This certificate is essential for availing reservations in education, employment, and government schemes. The online application process ensures a hassle-free way to obtain official caste certification.",
+      "pubDate": "Mon, 10 Mar 2025 16:23:37 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Online Registration of Marriage, Goa",
+      "link": "https://reg.goa.gov.in",
+      "description": "Register marriage online in Goa under the Code of Civil Registration, which applies to all religions. This system simplifies the process of obtaining a legal marriage certificate.",
+      "pubDate": "Wed, 05 Mar 2025 14:13:54 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Correction in Death Certificate, Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=REG&__ServiceId=PSE32",
+      "description": "This service allows citizens to request corrections in death certificates, ensuring the accuracy of official records in Goa.",
+      "pubDate": "Tue, 14 Jan 2025 09:19:26 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Correction in Birth Certificate, Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=REG&__ServiceId=PSE31",
+      "description": "Citizens can request corrections to birth certificates online in Goa, ensuring that vital records are accurate and up-to-date.",
+      "pubDate": "Tue, 14 Jan 2025 09:17:04 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Death Certificate, Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=PSE&__ServiceId=PSE04",
+      "description": "Residents can apply for a death certificate online in Goa. This essential document is required for various legal and administrative purposes, ensuring a streamlined process for applicants.",
+      "pubDate": "Tue, 10 Dec 2024 09:38:51 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    }
+  ]
+}

@@ -30,12 +30,18 @@ class Post(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
-    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    content = db.Column(db.Text, nullable=False)
+    # RSS fields
+    rss_category_id = db.Column(db.Integer, nullable=True)
+    rss_category_name = db.Column(db.String(120), nullable=True)
+    rss_link = db.Column(db.String(300), nullable=True)
+    rss_description = db.Column(db.Text, nullable=True)
+    rss_pubDate = db.Column(db.DateTime, nullable=True)
+    # date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    # content = db.Column(db.Text, nullable=False)
     reviews = db.relationship('Review', back_populates='post')
 
     def __repr__(self):
-        return f"Post('{self.title}', '{self.date_posted}')"
+        return f"Post(id={self.id}, title='{self.title}', rss_cat={self.rss_category_id})"
 
 
 class Review(db.Model):

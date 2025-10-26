@@ -1,0 +1,149 @@
+{
+  "category_id": 11,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:32.920827",
+  "items": [
+    {
+      "title": "Apply for Indian Citizenship",
+      "link": "https://indiancitizenshiponline.nic.in/",
+      "description": "Indian citizenship can be acquired by birth, descent, registration and naturalization. The conditions and procedure for acquisition of Indian citizenship as per the provision of the Citizenship Act, 1955",
+      "pubDate": "Mon, 12 Aug 2024 10:23:28 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply for Indian Citizenship Under CAA",
+      "link": "https://indiancitizenshiponline.nic.in/Login",
+      "description": "A special provision exists for the submission of applications for Indian Citizenship under the Citizenship Amendment Act of 2019. It is specifically for individuals who entered India on or before 31st December, 2014, and belonging to Hindu or Sikh or Buddhist or Jain or Parsi or Christian community from Pakistan or Afghanistan or Bangladesh.",
+      "pubDate": "Mon, 12 Aug 2024 10:23:51 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Passport Seva - Check Passport Appointment Availability",
+      "link": "https://portal2.passportindia.gov.in/AppOnlineProject/online/apptAvailStatus",
+      "description": "The Check Appointment Availability feature on the Passport Seva portal helps users find available slots for passport-related appointments. By entering their region or Passport Seva Kendra (PSK) details, applicants can view the dates and times for scheduling their appointments. This tool aids in planning and ensures a smooth application process by allowing users to book convenient appointment slots.",
+      "pubDate": "Tue, 23 Jul 2024 10:16:10 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Passport Seva - Apply for Tatkaal Passport Service",
+      "link": "https://portal2.passportindia.gov.in/AppOnlineProject/online/tatkaalPassports",
+      "description": "The Tatkaal Passport Service is designed for individuals who require their passports urgently. This expedited service on the Passport Seva portal allows applicants to receive their passports faster than the regular process. Applicants must submit additional documents and pay a higher fee to avail of this service. The Tatkaal scheme ensures quick processing and delivery of passports.",
+      "pubDate": "Tue, 23 Jul 2024 10:14:43 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Passport Seva - Apply for Ordinary Passport",
+      "link": "https://portal2.passportindia.gov.in/AppOnlineProject/online/procEFormSub",
+      "description": "The Ordinary Passport service on the Passport Seva portal enables Indian citizens to apply for a standard passport. This service involves filling out an application form, submitting required documents, scheduling an appointment, and attending a personal interview. The Ordinary Passport is intended for regular travel purposes, including business, tourism, and personal trips abroad.",
+      "pubDate": "Tue, 23 Jul 2024 10:12:52 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Passport Seva - New User Registration for Passport Services",
+      "link": "https://portal2.passportindia.gov.in/AppOnlineProject/user/RegistrationBaseAction?request_locale=en",
+      "description": "The New User Registration on the Passport Seva portal allows individuals to create an account for accessing various passport services. Users need to provide essential details such as name, date of birth, email, and mobile number to register. Upon successful registration, users can apply for new passports, renewals, and other related services.",
+      "pubDate": "Tue, 23 Jul 2024 10:10:44 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply for No Objection Return to India (NORI) in case of Pakistani Nationals living in India, Haryana",
+      "link": "https://saralharyana.gov.in/getServiceDesc.html?serviceId=11220005",
+      "description": "This service is to apply for No Objection Return to India (NORI) in case of Pakistani Nationals living in India from Police Department. This is a G2C service. Applicants need  register to apply for this service. Individuals can apply for this service.",
+      "pubDate": "Wed, 12 Jan 2022 16:46:51 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply for NOC For Indian living in abroad, Haryana",
+      "link": "https://saralharyana.gov.in/getServiceDesc.html?serviceId=11310005",
+      "description": "This service is to apply for NOC For Indian living in abroad from Police Department. This is a G2C service. Applicants need to register to apply for this service. Individuals can apply for this service.",
+      "pubDate": "Tue, 12 Apr 2022 09:33:32 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Know the Status of Your Passport Application, Kerala",
+      "link": "https://www.passportindia.gov.in/AppOnlineProject/statusTracker/trackStatusInpNew",
+      "description": "This service is to Know the Mobile Passport Police Application, Kerala",
+      "pubDate": "Fri, 13 Sep 2024 11:12:09 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply for Citizen Information, THUNA is a new venture of Kerala Police,, Kerala",
+      "link": "https://thuna.keralapolice.gov.in/citizen/login.htm",
+      "description": "This service is to apply for Citizen Information, THUNA is a new venture of Kerala Police,, Kerala",
+      "pubDate": "Fri, 21 Jan 2022 15:41:06 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply for Citizen Trip, THUNA is a new venture of Kerala Police, Kerala",
+      "link": "https://thuna.keralapolice.gov.in/citizen/login.htm",
+      "description": "This service is to apply for Citizen Trip, THUNA is a new venture of Kerala Police, Kerala",
+      "pubDate": "Fri, 21 Jan 2022 15:43:33 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Apply online for Character Verification Certificate",
+      "link": "https://edistrict.andaman.gov.in/",
+      "description": "Character verification should be given priority when we talk about safety and security. Individual him/her self-apply for the character Verification and a copy of the same to be submitted in their local police station having any criminal background or not. (Non- Resident of Andaman Can’t apply this service).",
+      "pubDate": "Fri, 23 Jul 2021 15:40:06 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "e-Register - eSanad",
+      "link": "https://esanad.nic.in/eregister",
+      "description": "Citizens may retrieve the Apostille by specifying the Apostille/Attestation number; as per the Apostille Convention, Ministry of External Affairs (MEA), a Competent Authority to issue Apostilles in electronic form that are maintained in e-registers",
+      "pubDate": "Tue, 12 Apr 2022 09:40:55 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Online Attestation - eSanad",
+      "link": "https://esanad.nic.in/userlogin",
+      "description": "Ministry of External Affairs provides eSanad, an online document verification/attestation/apostille service for verification of \ndocuments &amp; certificates in a contactless, faceless, cashless and paperless way for Indian citizens, foreigners who have obtained documents from document issuing authorities (DIAs) in India.",
+      "pubDate": "Thu, 22 Feb 2024 15:53:47 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "User Registration - MEA IFS Officials",
+      "link": "https://meacms.mea.gov.in/IFSUserRegistration.aspx",
+      "description": "Indian Foreign Service (IFS) officials may register online using their credentials such as designation, batch, station of posting, Compulsory Foreign Language (CFL), Other Foreign Languages (OFL)",
+      "pubDate": "Thu, 22 Feb 2024 15:48:27 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "MEA Online Login for IFS Officials",
+      "link": "https://meacms.mea.gov.in/ifslogin.aspx",
+      "description": "Indian Foreign Service (IFS) officials may log in using their user name and password",
+      "pubDate": "Tue, 12 Apr 2022 09:47:26 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Registration As a Citizen of India Under Section 5(1)(a) of the Citizenship Act, 1955 Made by a person of Indian Origin",
+      "link": "https://indiancitizenshiponline.nic.in",
+      "description": "Ministry of Home Affairs offers online service to allow Registration As a Citizen of India Under Section 5(1)(a) of the Citizenship Act, 1955 Made by a person of Indian Origin.",
+      "pubDate": "Thu, 14 Mar 2024 14:13:47 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Registration As a Citizen of India Under Section 5(1)(c) of the Citizenship Act, 1955 Made by a person Who is/has been married to a Citizen of India",
+      "link": "https://indiancitizenshiponline.nic.in",
+      "description": "Ministry of Home Affairs offers online service to allow Registration As a Citizen of India Under Section 5(1)(c) of the Citizenship Act, 1955 Made by a person Who is/has been married to a Citizen of India.",
+      "pubDate": "Thu, 14 Mar 2024 14:16:25 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Declaration of Renunciation of Citizenship Under Section 8 of the Act Made by a Citizen of India",
+      "link": "https://indiancitizenshiponline.nic.in/Renounce",
+      "description": "Ministry of Home Affairs offers online service to allow Declaration of Renunciation of Citizenship Under Section 8 of the Act Made by a Citizen of India",
+      "pubDate": "Thu, 14 Mar 2024 14:54:39 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Declaration of Intention to Resume Indian Citizenship Under Section 8(2) of the Act made by a person",
+      "link": "https://indiancitizenshiponline.nic.in/Resumption",
+      "description": "Ministry of Home Affairs offers online service to allow application for Declaration of Intention to Resume Indian Citizenship Under Section 8(2) of the Act made by a person.",
+      "pubDate": "Thu, 14 Mar 2024 15:18:58 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "category_id": 1,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:28.321477",
+  "items": [
+    {
+      "title": "Online Training Program on Various Financial Matters, Odisha",
+      "link": "https://apps.hrmsodisha.gov.in/index.htm",
+      "description": "The Odisha Government’s Online Training Program portal provides employees and citizens with digital training on financial management and related topics. It serves as a platform to enhance skills in budgeting, accounting, auditing, and other financial matters through structured modules. The initiative ensures greater transparency, accountability, and professional capacity building within government departments. By offering accessible online training, the portal empowers participants to strengthen...",
+      "pubDate": "Wed, 22 Oct 2025 14:12:27 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Apply for School and Mass Education, Odisha",
+      "link": "https://smeuas.odisha.gov.in/auth/login",
+      "description": "The School and Mass Education portal of Odisha offers an online platform for applying to various schemes, services, and educational initiatives under the department. It simplifies the process for students, teachers, and educational institutions by providing digital access to applications, updates, and official resources. The portal supports transparency and efficiency in school admissions, staff recruitment, scholarships, and other academic services. It reflects the state government’s efforts to...",
+      "pubDate": "Fri, 17 Oct 2025 15:06:54 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "School Information Management System, Andhra Pradesh",
+      "link": "https://cse.ap.gov.in/",
+      "description": "Department of School Education, Government of Andhra Pradesh aims to transform its state education system. Through academic, co-curricular and digital activities, the state will create a positive shift in the socio-economic health of its population as articulated in Vision 2029. The state aims to become a knowledge hub with a proven track record of streamlining processes in the education department, empowering teachers through strategic trainings, engaging deeply with all stakeholders in a child's...",
+      "pubDate": "Thu, 16 Oct 2025 12:27:29 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "View Dashboard of Department of Atomic Energy",
+      "link": "https://dashboard.dae.gov.in/",
+      "description": "The Department of Atomic Energy (DAE) dashboard offers a comprehensive digital platform to access key data, reports, and performance indicators related to India’s atomic energy initiatives. It provides insights into research activities, regulatory processes, licensing information, and project developments. The dashboard enhances transparency, efficiency, and monitoring by consolidating real-time updates in one place. Users can explore various aspects of nuclear research, energy generation, radiation...",
+      "pubDate": "Thu, 11 Sep 2025 12:31:25 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Cooperative Educational and Training Programme",
+      "link": "https://www.cooperation.gov.in/en/cooperative-trainings",
+      "description": "The National Cooperative Union of India (NCUI) and the National Council for Cooperative Training (NCCT) conduct cooperative educational and training programs to strengthen the cooperative movement in India. These programs aim to enhance the knowledge and skills of individuals involved in cooperatives, including members, staff, and leaders. NCUI focuses on education and development, while NCCT specializes in training for cooperative personnel.",
+      "pubDate": "Tue, 05 Aug 2025 14:49:54 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "AIQ Seats of Private Institutions Ayush AIAPGET-PG Counselling, Madhya Pradesh",
+      "link": "https://ayush.mponline.gov.in/Portal/Services/AYUSH/UGALLINDIA/Profile/ProfileLoginHome.aspx",
+      "description": "In Madhya Pradesh, All India Quota (AIQ) seats in private Ayush (Ayurveda, Siddha, Unani, and Homeopathy) institutions for PG courses (MD/MS) through the AIAPGET (All India AYUSH Postgraduate Entrance Test) are not managed by the central AACCC (Ayush Admissions Central Counseling Committee). Instead, these seats are filled by the respective State/UT counseling authority of Madhya Pradesh. Therefore, candidates seeking admission to these seats need to refer to the official website of the MP Ayush...",
+      "pubDate": "Tue, 05 Aug 2025 14:13:59 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Ayush (MD, Naturopathy and Yoga) Post Graduate Counselling, Madhya Pradesh",
+      "link": "https://ayush.mponline.gov.in/Portal/Services/AYUSH/UGBNYS/Profile/ProfileLoginHome.aspx",
+      "description": "Online Ayush (MD, Naturopathy and Yoga) Post Graduate (PG) Counseling for Madhya Pradesh involves a process for allocating seats in postgraduate programs in Ayurveda, Homeopathy, Unani, and Siddha (ASU) as well as Naturopathy and Yoga. This counseling is conducted online and is managed by the Madhya Pradesh Ayush Department. It's a key step for students who have qualified in the NEET PG exam and wish to pursue their postgraduate studies in these fields within Madhya Pradesh.",
+      "pubDate": "Tue, 05 Aug 2025 14:12:05 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Ayush AIAPGET Post Graduate Counselling, Madhya Pradesh",
+      "link": "https://ayush.mponline.gov.in/Portal/Services/AYUSH/PGSTATE/Profile/ProfileLoginHome.aspx",
+      "description": "The online Ayush AIAPGET Post Graduate (PG) counselling for Madhya Pradesh refers to the process of allocating seats in MD/MS/PG Diploma programs in Ayurveda, Yoga &amp; Naturopathy, Unani, Siddha, and Homeopathy (AYUSH) within the state, based on the AIAPGET (All India Ayush Post Graduate Entrance Test) scores. It's a centralized online system for eligible candidates to apply for and be allotted seats in participating AYUSH colleges across Madhya Pradesh.",
+      "pubDate": "Tue, 05 Aug 2025 14:10:03 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Ayush BNYS Under Graduate Counselling, Madhya Pradesh",
+      "link": "https://ayush.mponline.gov.in/Portal/Services/AYUSH/UGBNYS/Profile/ProfileLoginHome.aspx",
+      "description": "Online AYUSH BNYS (Bachelor of Naturopathy and Yogic Sciences) Undergraduate (UG) Counselling in Madhya Pradesh is a state-level process for admissions to BNYS programs in the state's AYUSH (Ayurveda, Yoga &amp; Naturopathy, Unani, Siddha, and Homeopathy) colleges. It is conducted online by the Directorate of AYUSH, Madhya Pradesh, and is based on NEET-UG scores. The process involves registration, choice filling, seat allotment, and document verification.",
+      "pubDate": "Mon, 04 Aug 2025 15:33:52 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Ayush NEET Under Graduate Counselling, Madhya Pradesh",
+      "link": "https://ayush.mponline.gov.in/Portal/Services/AYUSH/UG_STATE/Profile/ProfileLoginHome.aspx",
+      "description": "Online Ayush NEET Undergraduate (UG) Counselling in Madhya Pradesh refers to the centralized online process conducted by the Department of AYUSH, Government of Madhya Pradesh for admission to Bachelor of Ayurvedic Medicine and Surgery (BAMS), Bachelor of Homoeopathic Medicine (BHMS), Bachelor of Naturopathy and Yogic Science (BNYS), and Bachelor of Unani Medicine (BUMS) courses in various AYUSH colleges across the state. The counselling is based on the NEET UG scores and involves online registration,...",
+      "pubDate": "Mon, 04 Aug 2025 15:19:49 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Ayush Admissions Central Counseling Committee",
+      "link": "https://aaccc.gov.in/",
+      "description": "Ayush Admissions Central Counseling Committee (AACCC) of NCISM, Ministry of Ayush, Govt. of India, New Delhi conducts Online Counseling for allotment of All India Quota (AIQ) Seats of Under Graduate (BAMS/BSMS/BUMS/BHMS/B.Pharm-ITRA) and Post Graduate (MD/MS) courses under Govt./Govt. Aided colleges (15%), Deemed Universities (100%), Central Universities/National Institutes of Ayurveda/ Siddha/ Unani/ Homoeopathy medical streams, and Institutional Quota PG seats of Banaras Hindu University.",
+      "pubDate": "Mon, 04 Aug 2025 14:17:33 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Post Graduate (MD/ MS) Courses Counselling",
+      "link": "https://intraaaccc.gov.in/WebinfoPG/Page/Page?PageId=1&LangId=P",
+      "description": "Online Post Graduate (MD/MS) course counseling is the process of allocating seats in Master of Surgery (MS) and Doctor of Medicine (MD) programs to eligible candidates based on their performance in entrance exams like NEET PG. This process is typically conducted online by the Medical Counselling Committee (MCC). It involves registration, choice filling (selecting preferred colleges and courses), seat allotment, and reporting to the designated institution.",
+      "pubDate": "Mon, 04 Aug 2025 14:12:47 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Under Graduate Ayurveda/ Siddha/ Unani/ Homoeopathy Courses Counselling",
+      "link": "https://intraaaccc.gov.in/WebinfoUG/Page/Page?PageId=1&LangId=P",
+      "description": "Online undergraduate counseling for Ayurveda, Siddha, Unani, and Homoeopathy (ASU&amp;H) courses, conducted by the Ayush Admissions Central Counseling Committee (AACCC), allocates seats in government, government-aided, deemed universities, central universities, and national institutes. This process is based on merit in the NEET (UG) examination and involves multiple rounds of online counseling.",
+      "pubDate": "Mon, 04 Aug 2025 14:09:22 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Search Government Scholarship Scheme, Gujarat",
+      "link": "https://gssp.gujarat.gov.in/",
+      "description": "Gujarat has various government scholarship schemes aimed at supporting students from different backgrounds and academic levels. These schemes offer financial assistance for various purposes, including tuition fees, living expenses, and research activities. Some notable schemes include the Post-Matric Scholarship for Scheduled Castes, Saksham Scholarship for specially-abled students, and the Mukhyamantri Yuva Swavalamban Yojana.",
+      "pubDate": "Thu, 31 Jul 2025 14:37:17 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Know Your School by Ministry of Education",
+      "link": "https://kys.udiseplus.gov.in/#/home",
+      "description": "Know Your School is a campaign designed to familiarize students, parents, and the wider community with the school's identity, environment, and offerings. It encompasses various aspects like the school's history, location, facilities, academic programs, extracurricular activities, and unique features, aiming to foster a sense of belonging and pride. Essentially, it's about showcasing what makes the school special and worthwhile.",
+      "pubDate": "Thu, 31 Jul 2025 14:35:24 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Apply for Bonafide Certificate, Chandigarh",
+      "link": "https://www.schooleducation.chd.gov.in/studentApplySLC.aspx",
+      "description": "This service allows students to apply for a Bonafide Certificate from their educational institution in Chandigarh. Applicants need to submit basic details and supporting documents online. Once verified by the school authorities, the certificate is issued for use in academic, residential, or identification purposes.",
+      "pubDate": "Tue, 24 Jun 2025 12:25:17 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Apply for School Leaving Certificate, Chandigarh",
+      "link": "https://www.schooleducation.chd.gov.in/studentApplySLC.aspx",
+      "description": "Students in Chandigarh can apply for a School Leaving Certificate (SLC) online through this portal. Applicants must enter the student’s name, class, and reason for leaving. The request is then submitted to the school’s principal for processing and issuance of the certificate, enabling a smooth transition to other institutions.",
+      "pubDate": "Tue, 24 Jun 2025 12:23:21 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "School Management Information System, Chandigarh",
+      "link": "https://www.schooleducation.chd.gov.in/",
+      "description": "An integrated platform designed to digitize and streamline school operations, it offers an unified dashboard for administrators, schools, teachers and students, the system provides data accuracy, improves communication and simplifies educational processes and attendance.",
+      "pubDate": "Tue, 24 Jun 2025 12:21:35 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online system for Mutual Inter-District Teachers Transfer, Uttar Pradesh",
+      "link": "https://intradistricttransfer.upsdc.gov.in/ApplicantLogin_intra.aspx",
+      "description": "A mutual inter-district transfer in Uttar Pradesh allows two teachers working in different districts to swap their positions, effectively exchanging their postings. This process is part of the broader teacher transfer system in the state's Basic Education Department and involves a formal agreement between the two teachers and the relevant authorities.",
+      "pubDate": "Thu, 25 Sep 2025 16:37:06 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Registration for Telangana Polytechnic Common Entrance Test, Telangana",
+      "link": "https://polycet.sbtet.telangana.gov.in/",
+      "description": "POLYCET is conducted by the State Board of Technical Education and Training (SBTET), Telangana for admission to diploma courses in engineering, non-engineering, and technology streams. It also includes diploma courses in agriculture, seed technology, and horticulture offered by PJTSAU and SKLTSHU. Candidates seeking admission to polytechnic colleges across Telangana must register online, pay the fee, and appear for this entrance test to qualify for diploma-level technical education.",
+      "pubDate": "Fri, 30 May 2025 17:01:36 +0530",
+      "category": "Education and Learning"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+
 import os
 import secrets
 from PIL import Image
@@ -9,10 +10,50 @@ from flaskblog.email_reminders import check_and_send_reminders
 from flask_login import login_user, current_user, logout_user, login_required
 
 @app.route("/")
+def landing():
+    """Public landing page explaining CivicEase"""
+    return render_template('landing.html', title='Welcome to CivicEase')
+
+
+@app.route("/post/<int:post_id>")
+@login_required
+def post_detail(post_id):
+    post = Post.query.get_or_404(post_id)
+    return render_template('post.html', post=post)
+
 @app.route("/home")
+@app.route("/dashboard")
+@login_required
 def home():
-    posts = Post.query.all()
-    return render_template('home.html', posts=posts)
+    """Dashboard with government service categories - requires login"""
+    # Get all categories with post counts
+    categories = db.session.query(
+        Post.rss_category_id, 
+        Post.rss_category_name,
+        db.func.count(Post.id).label('count')
+    ).filter(
+        Post.rss_category_id.isnot(None)
+    ).group_by(
+        Post.rss_category_id, 
+        Post.rss_category_name
+    ).order_by(Post.rss_category_id).all()
+    
+    return render_template('home.html', categories=categories)
+
+
+@app.route("/category/<int:category_id>")
+@login_required
+def category_posts(category_id):
+    # Get posts for specific category
+    posts = Post.query.filter_by(rss_category_id=category_id).all()
+    
+    if not posts:
+        flash(f'No posts found for category {category_id}', 'info')
+        return redirect(url_for('home'))
+    
+    category_name = posts[0].rss_category_name if posts else f'Category {category_id}'
+    return render_template('category_posts.html', posts=posts, 
+                         category_name=category_name, category_id=category_id)
 
 
 @app.route("/about")
@@ -54,7 +95,7 @@ def login():
 @app.route("/logout")
 def logout():
     logout_user()
-    return redirect(url_for('home'))
+    return redirect(url_for('landing'))
 
 
 def save_picture(form_picture):

@@ -1,0 +1,149 @@
+{
+  "category_id": 7,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:31.340303",
+  "items": [
+    {
+      "title": "Dr Shivaram Karanth Layout - DSKL Betterment Tax Payment, Karnataka",
+      "link": "https://app.bda.karnataka.gov.in/bdabt-citizen/login",
+      "description": "This dedicated portal facilitates the payment of betterment tax for properties in the Dr. Shivaram Karanth Layout developed by the Bangalore Development Authority (BDA). Property owners can log in to view tax details, generate payment challans, and complete transactions securely online. The system streamlines the process, ensuring accurate records, quick payments, and easy access to receipts, helping citizens fulfill their statutory obligations conveniently and maintain compliance with BDA regulations.",
+      "pubDate": "Fri, 17 Oct 2025 14:28:48 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Property Tax Payment System by Bangalore Development Authority, Karnataka",
+      "link": "https://app.bda.karnataka.gov.in/bdaptax-citizen/login",
+      "description": "This online service allows property owners under the Bangalore Development Authority (BDA) to conveniently pay their property taxes. Users can log in to access tax details, generate challans, make secure online payments, and download receipts. The platform ensures timely tax submission, reduces paperwork, and promotes transparency, making it easier for residents to manage their property tax obligations without visiting BDA offices, thereby saving time and effort for citizens in Bengaluru.",
+      "pubDate": "Fri, 17 Oct 2025 14:26:36 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Contribute to Chief Minister's Relief Fund, Punjab",
+      "link": "https://connect.punjab.gov.in/cmrelieffund",
+      "description": "This official portal enables citizens to contribute directly to the Chief Minister's Relief Fund, Punjab. The fund supports people affected by natural disasters, medical emergencies, and other crises. Through secure online transactions, donors can extend financial aid to vulnerable individuals and communities in need. Contributions are utilized transparently for humanitarian assistance, reflecting the government’s commitment to citizen welfare. The portal encourages public participation in social...",
+      "pubDate": "Thu, 16 Oct 2025 14:22:42 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Checkpost Tax Payment of Vehicles, Bihar",
+      "link": "https://checkpost.parivahan.gov.in/checkpost/faces/login.xhtml?faces-redirect=true/#",
+      "description": "This online Checkpost Tax Payment service in Bihar enables vehicle owners and transporters to pay commercial vehicle entry tax and other applicable fees digitally. The portal ensures faster transactions, reduced paperwork, and transparency in tax collection at checkposts. Users can log in, calculate dues, and make secure online payments easily. By streamlining tax compliance, the system saves time for transport operators and supports hassle-free vehicle movement across state borders while strengthening...",
+      "pubDate": "Mon, 15 Sep 2025 12:07:56 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Login for Integrated Financial Management and Information System, Telangana",
+      "link": "https://ifmis.telangana.gov.in/login?forced",
+      "description": "Entrusted with the prudent management of Telangana's financial resources, the State Finance Department ensures meticulous maintenance of all financial transaction records. It also plays a crucial role in formulating and administering the state's fiscal policies.",
+      "pubDate": "Wed, 09 Oct 2024 09:24:28 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Goods and Services Tax - GST Services",
+      "link": "https://services.gst.gov.in/services/quicklinks/registration",
+      "description": "GST is a unified tax system that replaced multiple indirect taxes levied by both the Central and State Governments. Under GST, both the Central and State Governments share the authority to levy and collect taxes on goods and services. This has led to greater harmonization and uniformity in the tax structure across States, promoting economic integration. The GST system follows a dual structure, comprising Central GST (CGST) and State GST (SGST), levied concurrently by the Central and State governments,...",
+      "pubDate": "Tue, 23 Jul 2024 14:12:06 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Payment of Professional Tax, Gujarat",
+      "link": "https://enagar.gujarat.gov.in/",
+      "description": "This service facilitates applications for Enrollment Certificates (EC) and Registration Certificates (RC), EC payments, updates to names, addresses, and categories, bank details updates, and exemption and cancellation requests in Gujarat.",
+      "pubDate": "Wed, 12 Jun 2024 14:59:37 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "e-Pauti Online Land Revenue Payment, Odisha",
+      "link": "https://odishalandrevenue.nic.in/OnlineRTrent.aspx",
+      "description": "e-Pauti Online Land Revenue Payment by Revenue &amp; Disaster Management Department. The main aim of this application is to provide individuals with a simpler method for making their land revenue payments online. Through this platform, users can conveniently settle their &quot;Khajana&quot; dues and retrieve their receipts online. Additionally, if users misplace their receipts or require transaction details, we also facilitate easy retrieval of transaction numbers and subsequent receipt downloads.",
+      "pubDate": "Fri, 19 Apr 2024 10:29:05 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Holding and Property Tax Payment, Odisha",
+      "link": "https://www.odishaone.gov.in/citizen/quick-pay?changeDropDown=holdingTax",
+      "description": "Holding and Property Tax Payment service enables citizens to conveniently pay their essential taxes to their local urban authorities. Odishaone, a unified Integrated Service Delivery portal created by Odisha Computer Application Centre (OCAC), serves as the front-end interface for all e-Governance Applications across different departments. It aims to offer simple, accessible access to government services, both informational and transactional, anytime and anywhere.",
+      "pubDate": "Thu, 30 May 2024 09:26:22 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Donation to Chief Minister’s Relief Fund, Odisha",
+      "link": "https://cmrfodisha.gov.in/donation/onlinedonation.php",
+      "description": "Chief Minister's relief fund provides required treatments to the distressed people affected by the major natural calamities like flood, drought, fire accident etc, and it also provides the financial assistance to the needy individuals for their treatment of major diseases like; Cancer, Cardiac surgery &amp; Kidney transplant, Brain Tumor, Liver &amp; Multi Organ failure etc.",
+      "pubDate": "Thu, 18 Apr 2024 14:41:51 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online payment of Government Taxes and Dues, Odisha",
+      "link": "https://www.odishatreasury.gov.in/echallan/index",
+      "description": "Person or entity (“User”) using the services of Odisha Treasury Portal for making online payment of Government Taxes and Dues.",
+      "pubDate": "Thu, 18 Apr 2024 11:42:11 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "e-AASTHI Citizen Application, Karnataka",
+      "link": "https://eaasthi.karnataka.gov.in/",
+      "description": "The e-AASTHI citizen application is a property tax information system &amp;#40;Aasthi&amp;#41;. Citizens can apply for E-Aasthi by filling out an online application and uploading the required documents.",
+      "pubDate": "Mon, 29 Jan 2024 12:16:45 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "West Bengal Student Credit Card",
+      "link": "https://wbscc.wb.gov.in/",
+      "description": "Apply for Student Credit Card, this Scheme is for the students of West Bengal to enable them to pursue education without having any financial constraints.",
+      "pubDate": "Fri, 10 Nov 2023 12:31:17 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Aikyashree Scholarship, West Bengal",
+      "link": "https://wbmdfcscholarship.in/",
+      "description": "The Aikyashree Scholarship, initiated by the West Bengal government, offers financial aid to economically disadvantaged minority students, facilitating their educational pursuits. It aims to empower students by alleviating financial barriers, enabling them to access quality education and achieve their academic aspirations.",
+      "pubDate": "Tue, 23 Apr 2024 09:13:44 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Rupashree Prakalpa Scheme, West Bengal",
+      "link": "https://wbrupashree.gov.in/admin/Login/",
+      "description": "Get detailed information about Rupashree Prakalpa Scheme. The grant, to be provided under the name of &quot;Rupashree Prakalpa&quot;, is aimed at mitigating the difficulties that poor families face in bearing the expenditure of their daughters’ marriages, for which they often have to borrow money at very high interest rates.",
+      "pubDate": "Fri, 10 Nov 2023 11:18:28 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "My Jammu - Online Gateway to City of Temples",
+      "link": "https://myjammu.in/myjammu/index.html",
+      "description": "My Jammu mobile application, a result of the combined efforts of the Jammu Municipal Corporation and Jammu Smart City limited. This application aims to transform the city of temples, into an even smarter and more efficient urban center. Through this application, every citizen will have access to all the city's services on a single platform",
+      "pubDate": "Tue, 08 Jul 2025 16:43:28 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Checkpost Tax Payment of Vehicles",
+      "link": "https://checkpost.parivahan.gov.in/checkpost/faces/login.xhtml#",
+      "description": "Checkpost portal is meant to be a common platform from where various checkpost services are provided to citizens, as and when they are developed by the department. These services are being started for online checkpost tax payment of vehicles. The owners of these vehicles can access to the portal from any internet access point,",
+      "pubDate": "Wed, 15 May 2024 11:39:23 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Donation to Chief Minister's Relief Fund, Assam",
+      "link": "https://cm.assam.gov.in/donate",
+      "description": "Chief Minister’s Relief Fund is at the disposal of the Chief Minister. Expenditure from the fund may be incurred at the Chief Minister’s discretion for such purposes.",
+      "pubDate": "Thu, 18 Apr 2024 12:25:19 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Online Contributions / Donations to National Defence Fund (NDF)",
+      "link": "https://ndf.gov.in/en/online-donation",
+      "description": "The National Defence Fund (NDF) accepts voluntary donations from individuals, organizations, trusts, companies, and institutions to support the welfare of the armed forces and their families. You can conveniently contribute online through the official NDF portal. Every contribution strengthens national solidarity and supports brave soldiers and their dependents. Donations are eligible for tax exemption under Section 80G of the Income Tax Act.",
+      "pubDate": "Tue, 29 Apr 2025 14:09:33 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "e-Pay Land Tax Online - Loucha Pathap Land Record Information System, Manipur",
+      "link": "https://louchapathap.nic.in/egras/frmPayTax.aspx",
+      "description": "Get services for Land Records in India have evolved over centuries. The Land revenue was the main source of revenue for Indian rulers and then for British. Manipur land record system.",
+      "pubDate": "Tue, 27 Feb 2024 15:56:30 +0530",
+      "category": "Money and Taxes"
+    }
+  ]
+}

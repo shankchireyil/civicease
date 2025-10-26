@@ -1,0 +1,149 @@
+{
+  "category_id": 12,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:33.404033",
+  "items": [
+    {
+      "title": "Application for Obtaining Land Ownership Rights on Village Population Land, Madhya Pradesh",
+      "link": "https://saara.mp.gov.in/saaraweb/BhuSwamiAdhikar/BhuSwami_ApplicantionForm.aspx",
+      "description": "This portal provides an application facility for citizens of Madhya Pradesh to obtain land ownership rights on village population land. Through this service, residents can apply online for recognition of their legal rights over residential plots in rural areas. The system ensures transparency, efficiency, and ease of access by minimizing paperwork and offering digital submission. It supports rural development by securing property rights, reducing disputes, and empowering villagers with official documentation...",
+      "pubDate": "Thu, 11 Sep 2025 11:16:39 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply Rural Area Certificate, Punjab",
+      "link": "https://connect.punjab.gov.in/service/citizenservice/95",
+      "description": "The Rural Area Certificate is issued to individuals residing outside municipal limits in Punjab. It serves as official proof that the applicant’s residence is in a rural area, not falling under any municipal corporation, committee, or notified zone. This certificate is essential for accessing specific government schemes, admission quotas, and other benefits reserved for rural residents. Applicants can apply online through the official Punjab government portal by submitting necessary documents.",
+      "pubDate": "Fri, 30 May 2025 16:54:10 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for Chief Minister Farm-Barn Fire Disaster Relief Scheme, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "Farmers who suffer losses due to barn or farm fires can seek financial assistance under this scheme. Applications must include proof of damage and ownership details.",
+      "pubDate": "Fri, 04 Apr 2025 15:34:47 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for Chief Minister Farmer Disaster Assistance Scheme, Uttar Pradesh",
+      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
+      "description": "This scheme provides financial relief to farmers affected by natural disasters like floods, droughts, and hailstorms. Eligible farmers must submit crop loss reports and necessary documents.",
+      "pubDate": "Thu, 03 Apr 2025 14:26:33 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply Online DBT Schemes for Farm Implements, Odisha",
+      "link": "https://odishafarmmachinery.nic.in/FMN/FMNIndex.aspx",
+      "description": "The DBT Scheme for Farm Implements in Odisha provides direct subsidies to eligible farmers for purchasing agricultural equipment like tillers, harvesters, and seed drills. Under this scheme, the government transfers a portion of the cost directly to farmers’ bank accounts, promoting mechanization and improving agricultural productivity.",
+      "pubDate": "Wed, 12 Mar 2025 16:24:25 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for Farmer Registry ID, Uttar Pradesh",
+      "link": "https://upfr.agristack.gov.in/farmer-registry-up",
+      "description": "Farmers in Uttar Pradesh can register online to get a unique Farmer ID, enabling them to access government schemes, subsidies, and benefits.",
+      "pubDate": "Wed, 05 Mar 2025 14:41:04 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for  Post Cocoon Schemes, Jammu and Kashmir",
+      "link": "https://www.jk.gov.in/jkeservices/home",
+      "description": "Cocoon rearing, a key livelihood in Jammu and Kashmir, is supported through this scheme aimed at empowering women farmers with resources and financial assistance.",
+      "pubDate": "Wed, 15 Jan 2025 15:04:15 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for Farmers Registration of Nursery/ Orchards, Jammu and Kashmir",
+      "link": "https://www.jk.gov.in/jkeservices/home",
+      "description": "Farmers can register nurseries or orchards online in Jammu and Kashmir, paying fees digitally for hassle-free approval.",
+      "pubDate": "Wed, 15 Jan 2025 12:14:47 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Authorisation for Battery Waste Treatment by Pollution Control Board, Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=PCB&__ServiceId=PCB16",
+      "description": "Goa residents can apply for authorization to manage and treat battery waste through the Pollution Control Board. This service promotes environmentally responsible waste disposal practices.",
+      "pubDate": "Mon, 09 Dec 2024 16:43:42 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Authorisation for Construction and Demolition by Pollution Control Board, Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=PCB&__ServiceId=PCB18",
+      "description": "Citizens can apply for authorization for construction and demolition activities through the Pollution Control Board in Goa. This service ensures compliance with environmental regulations during such operations.",
+      "pubDate": "Mon, 09 Dec 2024 16:41:26 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Application for Conversion of land (IPB-Sanad), Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=IPB&__ServiceId=IPB09",
+      "description": "Goa residents can apply for land conversion (Sanad) to change the use of land from agricultural to non-agricultural purposes. This application process is managed online through the state government’s portal, ensuring convenience and transparency.",
+      "pubDate": "Mon, 09 Dec 2024 15:42:25 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Parimarjan Plus- Portal for correction of incorrect entries in the digitized Jamabandi register, Bihar",
+      "link": "https://parimarjanplus.bihar.gov.in/ParimarjanNew/userDashboard.aspx",
+      "description": "Parimarjan Plus enables the correction of errors in digitized Jamabandi records. This user-friendly platform allows property owners to apply for rectifications, ensuring accurate land records in Bihar.",
+      "pubDate": "Thu, 21 Nov 2024 09:42:19 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Land Possession Certificate by Department of Revenue and Land Reforms, Bihar",
+      "link": "https://parimarjan.bihar.gov.in/biharBhumireport/frm_LPC_StatusNew",
+      "description": "The portal provides online access to Land Possession Certificates, ensuring a hassle-free application process. This service validates property ownership and supports legal and financial transactions.",
+      "pubDate": "Thu, 21 Nov 2024 09:39:06 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Door Step Delivery of Revenue Maps by Directorate of Land Records and Survey, Bihar",
+      "link": "https://dlrs.bihar.gov.in/dms1/Default.aspx",
+      "description": "The Directorate of Land Records and Survey in Bihar provides doorstep delivery of revenue maps. This initiative saves time and effort, ensuring citizens receive essential land records efficiently.",
+      "pubDate": "Fri, 13 Dec 2024 10:02:16 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Online Conversion of Change in Land Use type by Department of Revenue and Land Reforms, Bihar",
+      "link": "https://landconversion.bihar.gov.in",
+      "description": "This portal enables online applications for changing the land use type. The streamlined process ensures compliance with regulations while offering convenience to landowners in Bihar.",
+      "pubDate": "Thu, 21 Nov 2024 09:30:06 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "e-Mapi by Department of Revenue and Land Reforms, Bihar",
+      "link": "https://emapi.bihar.gov.in/default.aspx?ReturnUrl=%2f",
+      "description": "The e-Mapi service by the Bihar government offers access to digitized land maps. This tool is valuable for property verification, planning, and resolving disputes, making land-related information readily accessible to citizens.",
+      "pubDate": "Mon, 18 Nov 2024 16:58:03 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Online Bhu-Lagaan Payment by Department of Revenue and Land Reforms, Bihar",
+      "link": "https://www.bhulagan.bihar.gov.in/",
+      "description": "The Online Bhu-Lagaan Payment system allows citizens to pay land revenue conveniently. This service enhances transparency and reduces the hassle of offline payments by providing a secure and accessible platform.",
+      "pubDate": "Mon, 18 Nov 2024 16:50:01 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Digitally Signed Bhu-Abhilekh by Department of Revenue and Land Reforms, Bihar",
+      "link": "https://bhuabhilekh.bihar.gov.in/login?ref=aW5kZXgucGhw",
+      "description": "The Bhu-Abhilekh portal by the Department of Revenue and Land Reforms, Bihar, offers digitally signed land records to citizens. This initiative ensures transparency, accessibility, and accuracy in property documentation, supporting the Digital India mission.",
+      "pubDate": "Mon, 18 Nov 2024 16:42:48 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Complete e-KYC for Pradhan Mantri Kisan Samman Nidhi PM-Kisan",
+      "link": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
+      "description": "The e-KYC service is essential for verifying the identity of beneficiaries under the PM-Kisan scheme. Farmers can complete their Know Your Customer (KYC) process online, ensuring that they meet the eligibility criteria and receive timely disbursements of the financial aid.",
+      "pubDate": "Thu, 25 Jul 2024 12:16:16 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Check the Status of Your Pradhan Mantri Kisan Samman Nidhi PM-Kisan Application",
+      "link": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
+      "description": "This service enables farmers to check the status of their applications for the PM-Kisan scheme. By entering their registration details, applicants can track the progress of their submissions and verify if they have been approved to receive the financial benefits.",
+      "pubDate": "Thu, 25 Jul 2024 12:13:54 +0530",
+      "category": "Agriculture, Rural and Environment"
+    }
+  ]
+}

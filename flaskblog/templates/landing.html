@@ -1,0 +1,188 @@
+{% extends "layout.html" %}
+{% block content %}
+    <!-- Hero Section -->
+    <div class="container-fluid bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 font-weight-bold mb-4">CivicEase</h1>
+                    <p class="lead mb-4">Your one-stop platform for accessing Indian Government services, schemes, and opportunities</p>
+                    <p class="mb-4">Simplifying access to education, healthcare, employment, financial services, and more - all in one place.</p>
+                    
+                    {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('home') }}" class="btn btn-light btn-lg me-3">
+                            <i class="fas fa-tachometer-alt"></i> Go to Dashboard
+                        </a>
+                    {% else %}
+                        <a href="{{ url_for('register') }}" class="btn btn-light btn-lg me-3">
+                            <i class="fas fa-user-plus"></i> Get Started
+                        </a>
+                        <a href="{{ url_for('login') }}" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fas fa-building fa-10x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">What CivicEase Offers</h2>
+                <p class="lead text-muted">Access comprehensive information about Indian Government services across multiple categories</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
+                        <h5>Education & Learning</h5>
+                        <p class="text-muted">Scholarships, training programs, educational schemes, and skill development opportunities</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-briefcase fa-3x text-primary mb-3"></i>
+                        <h5>Employment</h5>
+                        <p class="text-muted">Government job postings, recruitment notifications, and employment schemes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-heartbeat fa-3x text-primary mb-3"></i>
+                        <h5>Health & Wellness</h5>
+                        <p class="text-muted">Healthcare schemes, medical services, and wellness programs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-money-bill-wave fa-3x text-primary mb-3"></i>
+                        <h5>Financial Services</h5>
+                        <p class="text-muted">Tax information, banking services, subsidies, and financial assistance programs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-passport fa-3x text-primary mb-3"></i>
+                        <h5>Citizenship & Travel</h5>
+                        <p class="text-muted">Passport services, visa information, and travel-related government services</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-seedling fa-3x text-primary mb-3"></i>
+                        <h5>Agriculture & Environment</h5>
+                        <p class="text-muted">Farming schemes, environmental programs, and rural development initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-primary font-weight-bold">13</h3>
+                    <p class="text-muted">Service Categories</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-primary font-weight-bold">500+</h3>
+                    <p class="text-muted">Government Services</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-primary font-weight-bold">24/7</h3>
+                    <p class="text-muted">Access Available</p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="text-primary font-weight-bold">Free</h3>
+                    <p class="text-muted">Always Free to Use</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How it Works Section -->
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">How CivicEase Works</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <span class="h3 mb-0">1</span>
+                </div>
+                <h5>Sign Up</h5>
+                <p class="text-muted">Create your free account to access all government service categories</p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4">
+                <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <span class="h3 mb-0">2</span>
+                </div>
+                <h5>Browse Categories</h5>
+                <p class="text-muted">Explore 13+ categories of government services tailored to your needs</p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4">
+                <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <span class="h3 mb-0">3</span>
+                </div>
+                <h5>Access Services</h5>
+                <p class="text-muted">Get direct access to official government portals and service information</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    {% if not current_user.is_authenticated %}
+    <div class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Get Started?</h2>
+            <p class="lead mb-4">Join thousands of users who are already accessing government services with ease</p>
+            <a href="{{ url_for('register') }}" class="btn btn-light btn-lg me-3">
+                <i class="fas fa-user-plus"></i> Sign Up Now
+            </a>
+            <a href="{{ url_for('login') }}" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-sign-in-alt"></i> Already have an account?
+            </a>
+        </div>
+    </div>
+    {% endif %}
+
+    <style>
+        .opacity-75 {
+            opacity: 0.75;
+        }
+        .fa-10x {
+            font-size: 10em;
+        }
+    </style>
+
+{% endblock content %}

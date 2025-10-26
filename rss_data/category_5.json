@@ -1,0 +1,149 @@
+{
+  "category_id": 5,
+  "category_name": "National Government Services Portal",
+  "title": "National Government Services Portal",
+  "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+  "scraped_at": "2025-10-26T10:25:30.724184",
+  "items": [
+    {
+      "title": "Track Online Application Status for Patient, Punjab",
+      "link": "https://mmpcrk.gov.in/Userlogin/patientstatus.php",
+      "description": "This service by the Mukh Mantri Punjab Cancer Raahat Kosh enables patients to conveniently track the status of their applications online. Applicants can check real-time updates regarding their submitted requests without visiting offices physically, ensuring transparency and timely assistance. By providing patient-friendly digital access, the portal helps individuals monitor their cases, reduce delays, and stay informed about progress related to medical and financial aid support offered under the...",
+      "pubDate": "Thu, 16 Oct 2025 12:37:48 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "View Dashboard of Department of Atomic Energy",
+      "link": "https://dashboard.dae.gov.in/",
+      "description": "The Department of Atomic Energy (DAE) dashboard offers a comprehensive digital platform to access key data, reports, and performance indicators related to India’s atomic energy initiatives. It provides insights into research activities, regulatory processes, licensing information, and project developments. The dashboard enhances transparency, efficiency, and monitoring by consolidating real-time updates in one place. Users can explore various aspects of nuclear research, energy generation, radiation...",
+      "pubDate": "Thu, 11 Sep 2025 12:31:25 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Ayush Research Portal",
+      "link": "https://ayushportal.nic.in/",
+      "description": "The portal features research publications and evidence-based data across AYUSH systems - serving as a repository for clinical, pre-clinical, and drug research with global coverage.",
+      "pubDate": "Wed, 30 Jul 2025 16:26:34 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Online Licensing System, e‑AUSHADHI Portal",
+      "link": "https://e-aushadhi.gov.in/login",
+      "description": "A single-window system enables AYUSH manufacturers and drug-testing labs to apply for, track, and manage licenses related to Ayurveda, Siddha, Unani &amp; Homoeopathy drug production.",
+      "pubDate": "Wed, 30 Jul 2025 14:39:18 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Register for Mudhalvar Marundhagam Scheme, Tamil Nadu",
+      "link": "https://mudhalvarmarundhagam.tn.gov.in",
+      "description": "Mudhalvar Marundhagam is a Tamil Nadu government initiative that offers essential medicines at subsidized rates through government-run pharmacies. This scheme aims to provide affordable healthcare to economically weaker sections, ensuring access to quality medicines at significantly reduced prices.",
+      "pubDate": "Tue, 01 Apr 2025 16:44:25 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Patient Registration Form, Jammu and Kashmir",
+      "link": "https://esahaj.jk.gov.in/jnk_ui/#/login",
+      "description": "This service allows individuals to complete patient registration forms, including essential details such as emergency contacts and identification numbers.",
+      "pubDate": "Wed, 15 Jan 2025 09:35:10 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Apply for Online Registration System for OPD Appointment, Jammu and Kashmir",
+      "link": "https://esahaj.jk.gov.in/jnk_ui/#/login",
+      "description": "Citizens can book outpatient department (OPD) appointments online via the e-Sahaj portal, streamlining access to healthcare services.",
+      "pubDate": "Wed, 15 Jan 2025 09:32:10 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Provisional Registration of Clinical Establishment. Goa",
+      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=DHS&__ServiceId=DHS11",
+      "description": "Individuals or organizations can apply for provisional registration of clinical establishments in Goa. This service ensures compliance with regulations and facilitates the official recognition of healthcare facilities.",
+      "pubDate": "Mon, 09 Dec 2024 15:50:01 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Login for Fit Health Worker Campaign by Ayushman Arogya Mandir",
+      "link": "https://ab-hwc.nhp.gov.in/fhwc/",
+      "description": "Ayushman Arogya Mandir is an attempt to move from a selective approach to health care to deliver comprehensive range of services spanning preventive, promotive, curative, rehabilitative and palliative care. It has two components which are complementary to each other. Under its first component, 1,50,000 Ayushman Arogya Mandir will be created to deliver Comprehensive Primary Health Care.",
+      "pubDate": "Fri, 27 Sep 2024 09:07:50 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Indian Medical Registry Search",
+      "link": "https://www.nmc.org.in/information-desk/indian-medical-register/",
+      "description": "The Indian Medical Registry Search portal by the National Medical Commission (NMC) allows users to search for registered medical practitioners in India. It provides access to verified information about doctors, ensuring transparency and trust in the medical profession.",
+      "pubDate": "Fri, 30 Aug 2024 13:51:14 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Community Based Disease Surveillance Active Process",
+      "link": "https://ihip.mohfw.gov.in/cbs/#!/",
+      "description": "This portal is part of India's Integrated Health Information Platform (IHIP), focusing on active community-based disease surveillance. It enables real-time tracking of disease outbreaks, facilitating timely public health interventions to prevent the spread of infectious diseases.",
+      "pubDate": "Fri, 30 Aug 2024 13:48:33 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Eat Right India Preamble to the Food Safety and Standards",
+      "link": "https://eatrightindia.gov.in/index.jsp",
+      "description": "The Eat Right India initiative is led by the Food Safety and Standards Authority of India (FSSAI) under the Food Safety and Standards Act, 2006. Its goal is to ensure the availability of safe and wholesome food for people in India. This large-scale effort aims to transform the country’s food safety standards, promoting healthier eating habits nationwide.",
+      "pubDate": "Fri, 23 Aug 2024 09:59:25 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Login for Pradhan Mantri Jan Arogya Beneficiary",
+      "link": "https://beneficiary.nha.gov.in/",
+      "description": "The Pradhan Mantri Jan Arogya Yojana (PM-JAY) beneficiary login portal allows individuals to check their eligibility for the Ayushman Bharat health scheme. By logging in with a mobile number, users can verify their beneficiary status, access their Ayushman Card, and avail benefits like free hospitalization at empanelled hospitals. This service ensures transparency and easy access to quality healthcare for economically vulnerable citizens across India.",
+      "pubDate": "Tue, 06 May 2025 16:55:53 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Apply for Central Government Health Scheme - CGHS Card",
+      "link": "https://cghs.mohfw.gov.in/AHIMSG5/hissso/benLogin",
+      "description": "Eligible individuals may apply to obtain a Central Government Health Scheme (CGHS) card. This card provides access to a range of healthcare services, including medical consultations and treatments, at CGHS wellness centers and empaneled hospitals.",
+      "pubDate": "Mon, 15 Sep 2025 14:14:29 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Register Healthcare Professionals under Ayushman Bharat Health Account - ABHA",
+      "link": "https://nhpr.abdm.gov.in/home",
+      "description": "Healthcare Professionals Registry is a centralized directory of registered healthcare providers under the Ayushman Bharat Digital Mission. It includes information about doctors, nurses, and other healthcare professionals, ensuring that patients can find and verify qualified healthcare providers easily.",
+      "pubDate": "Wed, 24 Jul 2024 11:36:39 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Register Health Facilities under Ayushman Bharat Health Account - ABHA",
+      "link": "https://nhpr.abdm.gov.in/home",
+      "description": "Health Facility Registry is a comprehensive database of healthcare facilities registered under the Ayushman Bharat Digital Mission. It includes details of hospitals, clinics, and other health institutions, providing a centralized resource for patients to locate and access healthcare services efficiently.",
+      "pubDate": "Wed, 24 Jul 2024 11:33:00 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Create an Ayushman Bharat Health Account - ABHA Number",
+      "link": "https://abha.abdm.gov.in/abha/v3/register",
+      "description": "ABHA Number service allows individuals to generate their unique Ayushman Bharat Health Account (ABHA) number. This digital ID facilitates seamless access to health records across various healthcare providers, ensuring continuity of care and enhancing the efficiency of healthcare services.",
+      "pubDate": "Wed, 24 Jul 2024 11:28:34 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Ayushman Bharat Health Account - ABHA",
+      "link": "https://abdm.gov.in/",
+      "description": "Ayushman Bharat Health Accounts (ABHA) is an integral component of the Ayushman Bharat Digital Mission (ABDM) and aims to develop the backbone necessary to support the integrated digital health infrastructure of the country. ABHA is a 14 digit unique number which facilitates hassle free access and sharing of health records digitally. It enables interaction with verified healthcare providers and makes the process of accessing and sharing of lab reports, prescriptions and digital health records seamless....",
+      "pubDate": "Wed, 24 Jul 2024 11:26:07 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Tribal TB Initiative by Swasthya Portal",
+      "link": "https://swasthya.tribal.gov.in/",
+      "description": "The Tribal TB Initiative addresses the higher prevalence of tuberculosis among India's tribal communities. It brings together diverse stakeholders to tackle TB's multi-dimensional issues and strengthens collaboration between donors, governments, and partners to enhance primary healthcare services.",
+      "pubDate": "Fri, 06 Sep 2024 10:10:50 +0530",
+      "category": "Health and Wellness"
+    },
+    {
+      "title": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana AB-PMJAY Services",
+      "link": "https://beneficiary.nha.gov.in",
+      "description": "AB-PMJAY is a government-funded health insurance scheme offering up to ₹5 lakh per family per year for secondary and tertiary care hospitalization. It benefits economically weaker sections by providing cashless and paperless access to treatment at empaneled public and private hospitals, significantly reducing out-of-pocket healthcare expenses and improving access to quality medical services across India.",
+      "pubDate": "Tue, 29 Apr 2025 11:11:07 +0530",
+      "category": "Health and Wellness"
+    }
+  ]
+}
