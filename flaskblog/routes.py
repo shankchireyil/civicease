@@ -2,7 +2,7 @@
 import os
 import secrets
 from PIL import Image
-from flask import render_template, url_for, flash, redirect, request, abort
+from flask import render_template, url_for, flash, redirect, request
 from flaskblog import app, db, bcrypt
 from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
 from flaskblog.models import User, Post, Review
@@ -19,7 +19,9 @@ def landing():
 @login_required
 def post_detail(post_id):
     post = Post.query.get_or_404(post_id)
-    return render_template('post.html', post=post)
+    # Fetch all reviews for this post sorted by date (newest first)
+    reviews = Review.query.filter_by(post_id=post_id).order_by(Review.date_posted.desc()).all()
+    return render_template('post.html', post=post, reviews=reviews)
 
 @app.route("/home")
 @app.route("/dashboard")
@@ -55,10 +57,6 @@ def category_posts(category_id):
     return render_template('category_posts.html', posts=posts, 
                          category_name=category_name, category_id=category_id)
 
-
-@app.route("/about")
-def about():
-    return render_template('about.html', title='About')
 
 
 @app.route("/register", methods=['GET', 'POST'])
@@ -157,54 +155,26 @@ def add_comment():
             flash('Invalid reminder date format', 'warning')
             reminder_enabled = False
     
-    # Check if user already has a review for this post
-    existing_review = Review.query.filter_by(user_id=current_user.id, post_id=post_id).first()
-    
-    if existing_review:
-        # Update existing review
-        existing_review.content = comment_text
-        existing_review.reminder_enabled = reminder_enabled
-        existing_review.reminder_datetime = reminder_datetime
-        existing_review.reminder_sent = False  # Reset reminder status
-        flash('Comment updated!', 'success')
-    else:
-        # Create new review
-        new_review = Review(
-            content=comment_text, 
-            user_id=current_user.id, 
-            post_id=post_id,
-            reminder_enabled=reminder_enabled,
-            reminder_datetime=reminder_datetime
-        )
-        db.session.add(new_review)
-        flash('Comment saved!', 'success')
-    
-    db.session.commit()
-    return redirect(url_for('home'))
-
-
-
-@app.route("/post/<int:post_id>/delete", methods=['POST'])
-@login_required
-def delete_post(post_id):
-    post = Post.query.get_or_404(post_id)
-    if post.author != current_user:
-        abort(403)
-    db.session.delete(post)
-    db.session.commit()
-    flash('Your post has been deleted!', 'success')
-    return redirect(url_for('home'))
-
-
-@app.route("/check_reminders")
-@login_required
-def check_reminders_route():
-    """
-    Manual route to check and send pending reminders (for testing)
-    """
+    # Convert post_id to int and create a new review entry for every submission
     try:
-        count = check_and_send_reminders()
-        flash(f'Checked reminders: {count} reminders processed', 'info')
-    except Exception as e:
-        flash(f'Error checking reminders: {str(e)}', 'danger')
-    return redirect(url_for('home'))
+        post_id = int(post_id)
+    except (TypeError, ValueError):
+        flash('Invalid post id', 'danger')
+        return redirect(url_for('home'))
+
+    new_review = Review(
+        content=comment_text,
+        user_id=current_user.id,
+        post_id=post_id,
+        reminder_enabled=reminder_enabled,
+        reminder_datetime=reminder_datetime
+    )
+    db.session.add(new_review)
+    flash('Comment saved!', 'success')
+    
+    db.session.commit()
+    return redirect(url_for('post_detail', post_id=post_id))
+
+
+
+

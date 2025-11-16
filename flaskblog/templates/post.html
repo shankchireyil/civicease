@@ -47,19 +47,16 @@
                     {% endif %}
                     <hr>
                     <!-- Show all comments -->
-                    {% if post.reviews %}
+                    {% if reviews %}
                         <div class="comments-section">
                             <h6 class="small text-muted mb-2">Comments:</h6>
-                            {% for review in post.reviews %}
+                            {% for review in reviews %}
                                 <div class="small mb-2 p-2 bg-white rounded border">
                                     <div class="d-flex justify-content-between">
                                         <strong>{{ review.user.username }}</strong>
                                         <small class="text-muted">{{ review.date_posted.strftime('%d/%m/%y') }}</small>
                                     </div>
                                     <div>{{ review.content }}</div>
-                                    {% if review.reminder_enabled %}
-                                        <span class="badge badge-info badge-sm">📧 Reminder</span>
-                                    {% endif %}
                                 </div>
                             {% endfor %}
                         </div>
