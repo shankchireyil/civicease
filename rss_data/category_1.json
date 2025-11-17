@@ -3,8 +3,36 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:28.321477",
+  "scraped_at": "2025-11-17T11:14:07.304068",
   "items": [
+    {
+      "title": "Apply Certificate for Loss of Educational Records due to Disasters, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Tamil Nadu e-Sevai portal facilitates online application for certificates verifying loss of educational records due to natural disasters or unforeseen events. This service helps affected individuals obtain official validation to reconstruct or reissue their academic documents. The digital platform ensures a streamlined process for submitting details, uploading supporting evidence, and receiving the certificate promptly, ensuring transparency and support for citizens impacted by calamities.",
+      "pubDate": "Wed, 12 Nov 2025 10:43:41 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Student apply for First Graduate Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The First Graduate Certificate service on the Tamil Nadu e-Sevai portal allows student to apply online for certification confirming that they are the first in their family to graduate. This certificate is essential for availing educational benefits, scholarships, and government job concessions. The portal provides a convenient, transparent, and paperless process for applicants to submit required documents, track applications, and receive digitally signed certificates from authorized government officials.",
+      "pubDate": "Wed, 12 Nov 2025 09:30:21 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Student Apply for National Apprenticeship Training Scheme",
+      "link": "https://nats.education.gov.in/",
+      "description": "National Apprenticeship Training Scheme is one of the flagship programmes of Government of India for Skilling Indian Youth in Trade disciplines. The National Apprenticeship Training Scheme under the provisions of the Apprentices Act, 1961 amended in 1973; offers Graduate, Diploma students and Vocational certificate holders; a practical, hands-on On-the-Job-Training (OJT) based skilling opportunities with duration ranging from 6 months to 1 year.",
+      "pubDate": "Mon, 03 Nov 2025 12:10:25 +0530",
+      "category": "Education and Learning"
+    },
+    {
+      "title": "Online Registration of Students for Applying Scholarship via Portal, Chhattisgarh",
+      "link": "https://postmatric-scholarship.cg.nic.in/StudentRegistration.aspx",
+      "description": "The Chhattisgarh Post-Matric Scholarship portal provides an online platform for student registration to avail scholarships aimed at supporting economically weaker and disadvantaged groups. Through this system, students can register, submit details, and access various state and centrally sponsored scholarship schemes. The initiative ensures transparency, efficiency, and inclusivity by reducing paperwork and enabling direct access to financial assistance. It reflects the state government’s commitment...",
+      "pubDate": "Wed, 29 Oct 2025 10:31:13 +0530",
+      "category": "Education and Learning"
+    },
     {
       "title": "Online Training Program on Various Financial Matters, Odisha",
       "link": "https://apps.hrmsodisha.gov.in/index.htm",
@@ -115,34 +143,6 @@
       "link": "https://www.schooleducation.chd.gov.in/studentApplySLC.aspx",
       "description": "This service allows students to apply for a Bonafide Certificate from their educational institution in Chandigarh. Applicants need to submit basic details and supporting documents online. Once verified by the school authorities, the certificate is issued for use in academic, residential, or identification purposes.",
       "pubDate": "Tue, 24 Jun 2025 12:25:17 +0530",
-      "category": "Education and Learning"
-    },
-    {
-      "title": "Apply for School Leaving Certificate, Chandigarh",
-      "link": "https://www.schooleducation.chd.gov.in/studentApplySLC.aspx",
-      "description": "Students in Chandigarh can apply for a School Leaving Certificate (SLC) online through this portal. Applicants must enter the student’s name, class, and reason for leaving. The request is then submitted to the school’s principal for processing and issuance of the certificate, enabling a smooth transition to other institutions.",
-      "pubDate": "Tue, 24 Jun 2025 12:23:21 +0530",
-      "category": "Education and Learning"
-    },
-    {
-      "title": "School Management Information System, Chandigarh",
-      "link": "https://www.schooleducation.chd.gov.in/",
-      "description": "An integrated platform designed to digitize and streamline school operations, it offers an unified dashboard for administrators, schools, teachers and students, the system provides data accuracy, improves communication and simplifies educational processes and attendance.",
-      "pubDate": "Tue, 24 Jun 2025 12:21:35 +0530",
-      "category": "Education and Learning"
-    },
-    {
-      "title": "Online system for Mutual Inter-District Teachers Transfer, Uttar Pradesh",
-      "link": "https://intradistricttransfer.upsdc.gov.in/ApplicantLogin_intra.aspx",
-      "description": "A mutual inter-district transfer in Uttar Pradesh allows two teachers working in different districts to swap their positions, effectively exchanging their postings. This process is part of the broader teacher transfer system in the state's Basic Education Department and involves a formal agreement between the two teachers and the relevant authorities.",
-      "pubDate": "Thu, 25 Sep 2025 16:37:06 +0530",
-      "category": "Education and Learning"
-    },
-    {
-      "title": "Registration for Telangana Polytechnic Common Entrance Test, Telangana",
-      "link": "https://polycet.sbtet.telangana.gov.in/",
-      "description": "POLYCET is conducted by the State Board of Technical Education and Training (SBTET), Telangana for admission to diploma courses in engineering, non-engineering, and technology streams. It also includes diploma courses in agriculture, seed technology, and horticulture offered by PJTSAU and SKLTSHU. Candidates seeking admission to polytechnic colleges across Telangana must register online, pay the fee, and appear for this entrance test to qualify for diploma-level technical education.",
-      "pubDate": "Fri, 30 May 2025 17:01:36 +0530",
       "category": "Education and Learning"
     }
   ]

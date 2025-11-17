@@ -3,8 +3,15 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:32.077671",
+  "scraped_at": "2025-11-17T11:14:10.733010",
   "items": [
+    {
+      "title": "Apply for Vehicle Maintenance Log Book and Workshop Stock Register in Patna, Bihar",
+      "link": "https://pmcworkshop.bihar.gov.in/login",
+      "description": "This online portal serves as the Vehicle Maintenance Log Book and Workshop Stock Register for the Patna Municipal Corporation. It enables authorized personnel to manage and record vehicle maintenance activities, inventory usage, and workshop operations efficiently. The system supports effective monitoring of municipal vehicle fleets, ensuring timely maintenance, resource optimization, and transparency in workshop management for improved service delivery in Patna.",
+      "pubDate": "Thu, 30 Oct 2025 12:20:13 +0530",
+      "category": "Transport and Infrastructure"
+    },
     {
       "title": "Apply for Mock Test of Learner License, Bihar",
       "link": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do",
@@ -136,13 +143,6 @@
       "link": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml",
       "description": "The VAHAN portal offers an online application service for vehicle owners in Bihar seeking to alter their vehicles, such as modifications in design, structure, or usage. Applicants can submit requests, provide required documents, and receive approvals digitally. This system ensures compliance with motor vehicle rules, promotes transparency, and simplifies procedures by minimizing in-person visits. By keeping registration records updated with alterations, the service ensures vehicles remain roadworthy...",
       "pubDate": "Fri, 12 Sep 2025 12:26:24 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Re-assignment of Vehicle, Bihar",
-      "link": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml",
-      "description": "This online service through the VAHAN portal allows vehicle owners in Bihar to apply for re-assignment when shifting their vehicle’s registration to a new Regional Transport Office (RTO). It enables users to apply digitally, upload documents, and update registration details without lengthy office visits. The facility ensures accuracy in records, minimizes paperwork, and provides faster approvals. By promoting transparency and efficiency, it helps vehicle owners comply with transport regulations...",
-      "pubDate": "Fri, 12 Sep 2025 12:23:02 +0530",
       "category": "Transport and Infrastructure"
     }
   ]

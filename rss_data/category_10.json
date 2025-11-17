@@ -3,8 +3,29 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:32.418200",
+  "scraped_at": "2025-11-17T11:14:11.079024",
   "items": [
+    {
+      "title": "File and Track your Grievances related to Government Services Chennai, Tamil Nadu",
+      "link": "https://cmhelpline.tnega.org/portal/en/home",
+      "description": "Mudhalvarin Mugavari Department is an inclusive, integrated and convenient public grievance redressal platform, where you can File your grievance via multiple channels – calling the helpline, web portal, mobile app, e-mail, Twitter, Facebook, by post or by visiting the grievance call center in person.",
+      "pubDate": "Wed, 12 Nov 2025 09:25:53 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Apply Complaints and Grievance for Gandhinagar Municipal Corporation, Gujarat",
+      "link": "https://enagar.gujarat.gov.in/DIGIGOV/index.jsp",
+      "description": "Register and Track Compliant for Categories like Water and Drainage Related, Streetlight, Garbage and Sanitation, Road Repair and Man-Hole Related Problem and so on.",
+      "pubDate": "Mon, 03 Nov 2025 12:19:45 +0530",
+      "category": "Justice, Law and Grievances"
+    },
+    {
+      "title": "Valuable Feedback on Population Management Policy, Andhra Pradesh",
+      "link": "https://swarnandhra.ap.gov.in/",
+      "description": "The portal invites valuable feedback and suggestions from citizens on the Population Management Policy of Andhra Pradesh. It aims to promote participatory governance by encouraging public involvement in shaping strategies for sustainable population growth, resource management, and socio-economic development. Through this platform, individuals can share insights, recommendations, and perspectives to help the government enhance policy effectiveness and ensure a balanced approach toward health, welfare,...",
+      "pubDate": "Thu, 30 Oct 2025 14:03:56 +0530",
+      "category": "Justice, Law and Grievances"
+    },
     {
       "title": "Complaint Registration for India Post",
       "link": "https://crm.indiapost.gov.in/customer/home",
@@ -122,27 +143,6 @@
       "link": "https://rera.karnataka.gov.in/complaintHome",
       "description": "Homebuyers, investors, and other stakeholders can register complaints against developers, agents, or other entities involved in real estate transactions. This platform allows users to submit grievances related to project delays, misrepresentation, unfair practices, and non-compliance with RERA guidelines. The complaints are processed as per regulatory procedures to ensure justice and consumer protection.",
       "pubDate": "Wed, 05 Mar 2025 15:10:17 +0530",
-      "category": "Justice, Law and Grievances"
-    },
-    {
-      "title": "Check Electricity Complaint/Service Request Enquiry Status, Bihar",
-      "link": "https://nbpdcl.co.in/(S(w1tzztns0fad4xzhs2nd1ual))/frmCompStatusEnquiryO.aspx",
-      "description": "Track the status of electricity-related complaints and service requests in Bihar through this online enquiry system.",
-      "pubDate": "Wed, 05 Mar 2025 14:46:14 +0530",
-      "category": "Justice, Law and Grievances"
-    },
-    {
-      "title": "Online Electricity Complaint Registration System, Bihar",
-      "link": "https://nbpdcl.co.in/(S(w1tzztns0fad4xzhs2nd1ual))/frmGrievances.aspx",
-      "description": "File complaints related to electricity supply and services with the North Bihar Power Distribution Company Ltd. This portal allows citizens to raise issues and track resolutions.",
-      "pubDate": "Wed, 05 Mar 2025 14:43:51 +0530",
-      "category": "Justice, Law and Grievances"
-    },
-    {
-      "title": "Importer Lodge Grievance by Ministry of Steel",
-      "link": "https://sims.steel.gov.in/sims/Grievance.aspx",
-      "description": "Importers facing issues related to steel imports can lodge grievances through this portal. Managed by the Ministry of Steel, the platform enables users to register complaints, track status, and seek redressal or clarification. It enhances transparency and accountability in the steel import process while ensuring that stakeholders have a formal mechanism to voice concerns directly to the authorities.",
-      "pubDate": "Mon, 28 Apr 2025 12:02:18 +0530",
       "category": "Justice, Law and Grievances"
     }
   ]

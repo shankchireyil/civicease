@@ -3,8 +3,36 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:29.807851",
+  "scraped_at": "2025-11-17T11:14:07.754875",
   "items": [
+    {
+      "title": "Apply for Unemployment Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Unemployment Certificate service available on the Tamil Nadu e-Sevai portal allows eligible citizens to apply online for certification of unemployment status. This certificate is useful for accessing various government welfare schemes, financial aid, and job assistance programs. The portal ensures a smooth digital process for form submission, document verification, and certificate download, making it convenient and time-saving for applicants seeking employment-related benefits.",
+      "pubDate": "Wed, 12 Nov 2025 10:37:24 +0530",
+      "category": "Jobs"
+    },
+    {
+      "title": "Railway Recruitment Board Bengaluru, Karnataka",
+      "link": "https://rrbbnc.gov.in/",
+      "description": "The Railway Recruitment Board (RRB), Bengaluru, functions under the Ministry of Railways, Government of India, responsible for conducting recruitment examinations and selection processes for various Group ‘C’ posts in Indian Railways. The official website provides information on notifications, application status, examination schedules, results, and important updates for candidates. It ensures transparency and efficiency in the recruitment process while facilitating easy access to essential details...",
+      "pubDate": "Wed, 12 Nov 2025 09:19:59 +0530",
+      "category": "Jobs"
+    },
+    {
+      "title": "Central Management Information System - CMIS Ver2.0, Manipur",
+      "link": "https://cmis.man.nic.in/sevaarth/home1/sevaarthhome.php",
+      "description": "CMIS is an integrated Personnel Management and Payroll System of Manipur Government. It has completely superceded the erstwhile MGEL/CPIS. It is also a major component of IFMS - Integrated Finance Management System of Government of Manipur.",
+      "pubDate": "Mon, 03 Nov 2025 12:22:26 +0530",
+      "category": "Jobs"
+    },
+    {
+      "title": "CMIS Employee Corner through Digital Access, Manipur",
+      "link": "https://employee.man.nic.in",
+      "description": "The CMIS Employee Corner portal by the Government of Manipur is a centralized platform for state government employees to access human resource and administrative services. Through this portal, employees can manage personal profiles, salary slips, leave records, and other employment-related information. It enhances efficiency, transparency, and accessibility in employee management, fostering seamless interaction between government departments and their personnel in Manipur.",
+      "pubDate": "Thu, 30 Oct 2025 13:48:35 +0530",
+      "category": "Jobs"
+    },
     {
       "title": "Register for CMIS Employee Corner, Manipur",
       "link": "https://employee.man.nic.in/",
@@ -115,34 +143,6 @@
       "link": "https://www.emigrate.gov.in/#/emigrate/common/pbby-claim/external",
       "description": "Project Exporters registered under the eMigrate platform can submit insurance claims under the Pravasi Bhartiya Bima Yojana (PBBY). Managed by the Ministry of External Affairs, this service streamlines the process of claim submission and ensures timely disbursement. It supports the welfare of Indian workers employed abroad under government-approved contracts by facilitating access to policy benefits efficiently.",
       "pubDate": "Mon, 28 Apr 2025 12:32:47 +0530",
-      "category": "Jobs"
-    },
-    {
-      "title": "Track Application Status eMigrate Project Exporter",
-      "link": "https://www.emigrate.gov.in/#/emigrate/common/application/status",
-      "description": "Applicants can track the status of their application for registration as a Project Exporter through the eMigrate portal. This service, provided by the Ministry of External Affairs, enables users to monitor the progress of their submission, ensuring transparency and ease of access for exporters dealing with overseas projects.",
-      "pubDate": "Thu, 05 Dec 2024 14:58:20 +0530",
-      "category": "Jobs"
-    },
-    {
-      "title": "Apply for Registration eMigrate Project Exporter",
-      "link": "https://www.emigrate.gov.in/#/emigrate/projectexporter",
-      "description": "Organizations involved in project exports can register under the eMigrate system. This service ensures adherence to international employment standards, facilitating smooth project implementation abroad.",
-      "pubDate": "Fri, 29 Nov 2024 15:06:54 +0530",
-      "category": "Jobs"
-    },
-    {
-      "title": "eMigrate Employer Search List of Job Designation on visa",
-      "link": "https://www.emigrate.gov.in/#/emigrate/employer/list-of-job-designation-as-on-visa",
-      "description": "Employers can search and verify approved job designations listed on visas through this service. It ensures compliance with the employment requirements set by the Ministry of External Affairs.",
-      "pubDate": "Fri, 29 Nov 2024 15:02:21 +0530",
-      "category": "Jobs"
-    },
-    {
-      "title": "eMigrate Employer Submit Claim for PBBY Policy",
-      "link": "https://www.emigrate.gov.in/#/emigrate/common/pbby-claim/external",
-      "description": "Employers can file claims under the Pravasi Bhartiya Bima Yojana (PBBY) policy through this service. It ensures that policyholders receive timely benefits as per the scheme’s provisions.",
-      "pubDate": "Fri, 29 Nov 2024 14:42:00 +0530",
       "category": "Jobs"
     }
   ]

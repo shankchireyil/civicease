@@ -3,8 +3,43 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:30.388303",
+  "scraped_at": "2025-11-17T11:14:08.728611",
   "items": [
+    {
+      "title": "Apply for Unmarried Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "Through the Tamil Nadu e-Sevai portal, individuals can apply for the Unmarried Certificate, which officially certifies that the applicant has never been married. This certificate is commonly used for visa applications, employment abroad, and marriage registration in foreign countries. The portal simplifies the entire process by enabling online form submission, document upload, and status tracking, ensuring transparency, efficiency, and convenience for applicants seeking this official verification.",
+      "pubDate": "Thu, 13 Nov 2025 09:47:16 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for No Male Child Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Tamil Nadu e-Sevai portal allows citizens to apply online for the No Male Child Certificate, an official document confirming that a family has no male offspring. This certificate is often required to access specific welfare schemes, inheritance matters, and social assistance programs. The digital service ensures an easy, quick, and transparent application process, allowing users to submit documents, verify information, and download certificates without visiting government offices.",
+      "pubDate": "Thu, 13 Nov 2025 09:45:16 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Apply for Widow Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "Through the Tamil Nadu e-Sevai portal, widowed women can apply for the Widow Certificate, an official document confirming their marital status. This certificate is essential to access government pensions, welfare programs, and financial aid. The online service simplifies the application and verification process, enabling easy submission of details and supporting documents. Applicants can track their status and receive their certificates digitally, ensuring convenience and transparency in service...",
+      "pubDate": "Wed, 12 Nov 2025 10:40:56 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Download Death Certificate Form in Patna, Bihar",
+      "link": "https://www.pmc.bihar.gov.in/assets/pdf/deathform.pdf",
+      "description": "This downloadable Death Certificate Form by the Patna Municipal Corporation allows citizens to register death events conveniently. The form can be printed, filled, and submitted to municipal authorities for obtaining an official death certificate. This service simplifies vital record management, ensuring residents can access essential documentation for legal, insurance, and family record purposes in an efficient and transparent manner.",
+      "pubDate": "Thu, 30 Oct 2025 12:23:50 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
+    {
+      "title": "Download Birth Certificate Form in Patna, Bihar",
+      "link": "https://www.pmc.bihar.gov.in/assets/pdf/birthform.pdf",
+      "description": "The Patna Municipal Corporation provides an easy-to-download Birth Certificate Form for citizens to register births officially. The form can be filled and submitted to the concerned municipal office to obtain a certified birth certificate. This initiative ensures accessible documentation services, helping residents easily register vital events and avail essential civic benefits linked to official birth records within Patna.",
+      "pubDate": "Thu, 30 Oct 2025 12:21:56 +0530",
+      "category": "Births, Deaths, Marriages and Child care"
+    },
     {
       "title": "Apply for Marriage Registration, Bihar",
       "link": "https://nibandhan.bihar.gov.in/Marriage/OnlineLoginMarriage.aspx",
@@ -108,41 +143,6 @@
       "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
       "description": "Residents of Uttar Pradesh can apply for an income certificate, which serves as proof of income for various government benefits, scholarships, and reservation schemes. The certificate is issued based on verified income sources and is crucial for availing financial assistance from government programs.",
       "pubDate": "Mon, 10 Mar 2025 16:25:14 +0530",
-      "category": "Births, Deaths, Marriages and Child care"
-    },
-    {
-      "title": "Apply for Caste Certificate, Uttar Pradesh",
-      "link": "https://esathi.up.gov.in/citizenservices/login/login.aspx",
-      "description": "Residents of Uttar Pradesh belonging to Scheduled Castes (SC), Scheduled Tribes (ST), and Other Backward Classes (OBC) can apply for a caste certificate through this portal. This certificate is essential for availing reservations in education, employment, and government schemes. The online application process ensures a hassle-free way to obtain official caste certification.",
-      "pubDate": "Mon, 10 Mar 2025 16:23:37 +0530",
-      "category": "Births, Deaths, Marriages and Child care"
-    },
-    {
-      "title": "Online Registration of Marriage, Goa",
-      "link": "https://reg.goa.gov.in",
-      "description": "Register marriage online in Goa under the Code of Civil Registration, which applies to all religions. This system simplifies the process of obtaining a legal marriage certificate.",
-      "pubDate": "Wed, 05 Mar 2025 14:13:54 +0530",
-      "category": "Births, Deaths, Marriages and Child care"
-    },
-    {
-      "title": "Apply for Correction in Death Certificate, Goa",
-      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=REG&__ServiceId=PSE32",
-      "description": "This service allows citizens to request corrections in death certificates, ensuring the accuracy of official records in Goa.",
-      "pubDate": "Tue, 14 Jan 2025 09:19:26 +0530",
-      "category": "Births, Deaths, Marriages and Child care"
-    },
-    {
-      "title": "Apply for Correction in Birth Certificate, Goa",
-      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=REG&__ServiceId=PSE31",
-      "description": "Citizens can request corrections to birth certificates online in Goa, ensuring that vital records are accurate and up-to-date.",
-      "pubDate": "Tue, 14 Jan 2025 09:17:04 +0530",
-      "category": "Births, Deaths, Marriages and Child care"
-    },
-    {
-      "title": "Apply for Death Certificate, Goa",
-      "link": "https://goaonline.gov.in/Appln/UIL/deptServices?__DocId=PSE&__ServiceId=PSE04",
-      "description": "Residents can apply for a death certificate online in Goa. This essential document is required for various legal and administrative purposes, ensuring a streamlined process for applicants.",
-      "pubDate": "Tue, 10 Dec 2024 09:38:51 +0530",
       "category": "Births, Deaths, Marriages and Child care"
     }
   ]

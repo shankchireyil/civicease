@@ -3,8 +3,29 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:31.340303",
+  "scraped_at": "2025-11-17T11:14:09.842579",
   "items": [
+    {
+      "title": "Apply for Solvency Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Solvency Certificate service on the Tamil Nadu e-Sevai portal enables citizens to apply online for official verification of their financial stability and creditworthiness. This certificate is essential for participating in government tenders, securing loans, and legal proceedings. The portal provides a transparent, secure, and efficient process for submitting applications, uploading required documents, and tracking status online, ensuring convenient access to this important financial document...",
+      "pubDate": "Thu, 13 Nov 2025 09:42:15 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Pay Online Shop Rent in Patna, Bihar",
+      "link": "https://www.pmc.bihar.gov.in/prdashops.aspx",
+      "description": "This portal by the Patna Municipal Corporation facilitates online payment of shop rent for commercial establishments under its jurisdiction. Shop owners can log in to view their rent details, generate payment challans, and complete transactions securely online. The system ensures convenience, transparency, and accountability in managing municipal rental properties, promoting a digital and efficient framework for urban commercial space administration in Patna.",
+      "pubDate": "Wed, 29 Oct 2025 11:08:41 +0530",
+      "category": "Money and Taxes"
+    },
+    {
+      "title": "Pay Property Tax by Patna Municipal Corporation, Bihar",
+      "link": "https://pmcptax.bihar.gov.in/pmc/public/property/search_property.html?fwd_url=demand_details",
+      "description": "The Patna Municipal Corporation’s online payment portal enables citizens to conveniently pay their property taxes digitally. Users can search their property details, check dues, and make secure payments online using multiple payment modes. This initiative supports hassle-free tax compliance, reduces manual procedures, and enhances transparency and efficiency in municipal revenue collection, contributing to better governance and urban infrastructure development in Patna.",
+      "pubDate": "Wed, 29 Oct 2025 11:01:11 +0530",
+      "category": "Money and Taxes"
+    },
     {
       "title": "Dr Shivaram Karanth Layout - DSKL Betterment Tax Payment, Karnataka",
       "link": "https://app.bda.karnataka.gov.in/bdabt-citizen/login",
@@ -122,27 +143,6 @@
       "link": "https://checkpost.parivahan.gov.in/checkpost/faces/login.xhtml#",
       "description": "Checkpost portal is meant to be a common platform from where various checkpost services are provided to citizens, as and when they are developed by the department. These services are being started for online checkpost tax payment of vehicles. The owners of these vehicles can access to the portal from any internet access point,",
       "pubDate": "Wed, 15 May 2024 11:39:23 +0530",
-      "category": "Money and Taxes"
-    },
-    {
-      "title": "Online Donation to Chief Minister's Relief Fund, Assam",
-      "link": "https://cm.assam.gov.in/donate",
-      "description": "Chief Minister’s Relief Fund is at the disposal of the Chief Minister. Expenditure from the fund may be incurred at the Chief Minister’s discretion for such purposes.",
-      "pubDate": "Thu, 18 Apr 2024 12:25:19 +0530",
-      "category": "Money and Taxes"
-    },
-    {
-      "title": "Online Contributions / Donations to National Defence Fund (NDF)",
-      "link": "https://ndf.gov.in/en/online-donation",
-      "description": "The National Defence Fund (NDF) accepts voluntary donations from individuals, organizations, trusts, companies, and institutions to support the welfare of the armed forces and their families. You can conveniently contribute online through the official NDF portal. Every contribution strengthens national solidarity and supports brave soldiers and their dependents. Donations are eligible for tax exemption under Section 80G of the Income Tax Act.",
-      "pubDate": "Tue, 29 Apr 2025 14:09:33 +0530",
-      "category": "Money and Taxes"
-    },
-    {
-      "title": "e-Pay Land Tax Online - Loucha Pathap Land Record Information System, Manipur",
-      "link": "https://louchapathap.nic.in/egras/frmPayTax.aspx",
-      "description": "Get services for Land Records in India have evolved over centuries. The Land revenue was the main source of revenue for Indian rulers and then for British. Manipur land record system.",
-      "pubDate": "Tue, 27 Feb 2024 15:56:30 +0530",
       "category": "Money and Taxes"
     }
   ]

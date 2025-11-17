@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:30.962057",
+  "scraped_at": "2025-11-17T11:14:09.473995",
   "items": [
     {
       "title": "Apply for Senior Citizen Pilgrimage Scheme, Rajasthan",
@@ -55,10 +55,10 @@
       "category": "Travel and Tourism"
     },
     {
-      "title": "Book/Cancel Ticket, Andaman &amp; Nicobar Island",
-      "link": "https://ants.andaman.gov.in/Citizen/BookticketNew.aspx",
+      "title": "Online Tourist Registration and Booking, Andaman and Nicobar Island",
+      "link": "https://www.andamantourism.gov.in/etourist/index.php/home/form",
       "description": "Citizen who wish to avail ticketing service has to register by providing his/her personal details along with correct mobile number. No user is allowed to register more than once with the same mobile number.",
-      "pubDate": "Thu, 15 Feb 2024 16:42:59 +0530",
+      "pubDate": "Thu, 13 Nov 2025 15:24:22 +0530",
       "category": "Travel and Tourism"
     },
     {

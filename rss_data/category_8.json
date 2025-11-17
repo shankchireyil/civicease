@@ -3,8 +3,64 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:31.695920",
+  "scraped_at": "2025-11-17T11:14:10.355943",
   "items": [
+    {
+      "title": "Apply for Deserted Woman Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "Through the Tamil Nadu e-Sevai portal, women can apply online for the Deserted Woman Certificate, issued to those abandoned by their husbands and living separately. This certificate enables beneficiaries to access welfare schemes, financial assistance, and social support programs offered by the government. The portal ensures a simple and efficient online process for application submission, verification, and certificate issuance, promoting transparency and ease of service delivery.",
+      "pubDate": "Wed, 12 Nov 2025 09:33:05 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Check Property Eviction Application Status, Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getPropertyEvictiomOrderappStatus",
+      "description": "This online facility allows senior citizens in Telangana to track the status of their property eviction cases filed with the District Collector. Users can view updates, case details, and orders related to eviction proceedings. The service promotes transparency, accessibility, and timely information, helping elderly citizens stay informed about their property-related cases and ensuring effective implementation of their rights under the Maintenance and Welfare of Parents and Senior Citizens Act.",
+      "pubDate": "Thu, 06 Nov 2025 11:20:58 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Check Case Application Status, Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getTribualOrderappStatus",
+      "description": "This service enables senior citizens in Telangana to check the real-time status of their maintenance or property deed cancellation applications submitted to the Maintenance Tribunal. The platform provides updates on case progress, hearing dates, and orders, ensuring transparency and accessibility. It empowers senior citizens to stay informed about their legal proceedings without visiting government offices, promoting efficiency and convenience.",
+      "pubDate": "Thu, 06 Nov 2025 11:19:35 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Print/ Download Application and Acknowledgement Form, Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getApplicationNo",
+      "description": "Through this service, senior citizens in Telangana can easily print or download their submitted application and acknowledgement forms for maintenance, property cancellation, or eviction cases. The platform enhances convenience and transparency by providing digital access to official documents. It supports elderly citizens in tracking their applications and maintaining proper records for legal and administrative purposes.",
+      "pubDate": "Thu, 06 Nov 2025 11:18:09 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Appeal To Appellate Property Eviction, Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getAppealToAppeallatePropertyEviction",
+      "description": "This service allows senior citizens in Telangana to appeal against orders related to property eviction cases issued by the District Collector. The appeal can be submitted to the Appellate Tribunal for review and justice under the Maintenance and Welfare of Parents and Senior Citizens Act. The platform ensures fair hearing, legal support, and quick resolution, safeguarding the property rights and dignity of elderly citizens.",
+      "pubDate": "Thu, 06 Nov 2025 11:16:34 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Eviction from Property (Collector), Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getPropertyEvictionOTP",
+      "description": "This online facility enables senior citizens in Telangana to initiate property eviction proceedings under the Maintenance and Welfare of Parents and Senior Citizens Act. Managed by the District Collector, the service helps elders reclaim their property from unauthorized occupants or individuals causing distress. It ensures legal protection, promotes justice, and upholds the rights of senior citizens through a simplified, transparent, and accessible digital process.",
+      "pubDate": "Thu, 06 Nov 2025 11:15:06 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Appeal To Appellate Tribunal (Collector), Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getAppealToAppeallate",
+      "description": "This service allows senior citizens in Telangana to submit appeals to the Appellate Tribunal headed by the District Collector against orders issued by the Maintenance Tribunal (RDO). The online system ensures transparency, convenience, and speedy resolution of disputes concerning maintenance and welfare. It empowers senior citizens to seek justice effectively, protecting their rights and ensuring their safety and well-being through the state’s welfare mechanisms.",
+      "pubDate": "Thu, 06 Nov 2025 11:13:53 +0530",
+      "category": "Pension and Benefits"
+    },
+    {
+      "title": "Senior Citizens Apply for Maintenance/ Property Deed Cancellation (RDO), Telangana",
+      "link": "https://tgseniorcitizens.cgg.gov.in/getTribunalFormAOTP",
+      "description": "This portal enables senior citizens in Telangana to apply online for maintenance support or cancellation of property deeds under the Maintenance and Welfare of Parents and Senior Citizens Act. Managed by the Revenue Divisional Officer (RDO), it ensures timely redressal of grievances related to neglect or property disputes. The service promotes legal protection, financial security, and dignity for elderly citizens through a transparent and accessible digital process.",
+      "pubDate": "Thu, 06 Nov 2025 11:11:27 +0530",
+      "category": "Pension and Benefits"
+    },
     {
       "title": "Register Senior Citizen for the Safety by Delhi Police, Delhi",
       "link": "https://seniorcitizen.delhipolice.gov.in/",
@@ -87,62 +143,6 @@
       "link": "https://connect.punjab.gov.in/service/citizenservice/108",
       "description": "This scheme provides financial support to elderly citizens in Punjab women aged 58 years and above and men aged 65 years and above. Eligible individuals must have a monthly income not exceeding ₹2000 (single) or ₹3000 (couple), with land ownership limits also applying. The pension aims to ensure social security and dignity for the elderly who lack sufficient means of support. Applications can be submitted online through the dedicated portal for quick and transparent processing.",
       "pubDate": "Fri, 30 May 2025 10:25:30 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for State Mahila Sadan and Nari Niketan Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "This scheme aims to empower widows, destitute, and economically weaker women by providing shelter, safety, and livelihood opportunities. Through Mahila Sadans and Nari Niketans, the Rajasthan Government ensures holistic support—ranging from education and vocational training to emotional and social rehabilitation—helping women become self-reliant and lead dignified lives.",
-      "pubDate": "Tue, 20 May 2025 11:58:49 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Collaboration and Gift Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "The Collaboration and Gift Scheme is an integration of the Sahayog Yojana and the Assistance Scheme for the marriage of daughters of widowed women. Run by the Rajasthan Government, it provides financial support to ensure dignified marriages and promote social welfare. The initiative aims to support economically weaker sections and widowed women through marriage-related assistance.",
-      "pubDate": "Tue, 20 May 2025 12:00:19 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Pannadhay Jeevan Amrit Yojana, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "Pannadhay Jeevan Amrit Yojana provides life and accident insurance coverage for citizens in Rajasthan. Individuals aged 18–50 years are included under Pradhan Mantri Jeevan Jyoti Bima Yojana and Suraksha Bima Yojana, while those aged 51–59 years continue to be insured under Panna Dhai Jeevan Amrit Yojana. The scheme aims to provide financial security to families after the death or disability of the breadwinner.",
-      "pubDate": "Tue, 20 May 2025 12:02:58 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Chief Minister Special Disabled Person Samman Pension Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "Specially abled person of any age who is suffering from any one or more disabilities (40 percent and more disability) like blindness, low vision, locomotor disability, leprosy cured, hearing loss, mental retardation, mental illness, Should be naturally suffering from eunuchism (in case of adult person whose height is less than 3 feet 6 inches and should have a certificate issued by authorized medical officer) and should be naturally suffering from eunuchism, Who is a native of Rajasthan and is living...",
-      "pubDate": "Tue, 20 May 2025 12:15:19 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Chief Minister Old Age Samman Pension Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "This scheme offers financial support to elderly citizens of Rajasthan — women aged 55 years and above and men aged 58 years and above — who have no regular income. Those belonging to BPL, Antyodaya, Aastha cardholder families, or Sahariya, Kathodi, and Khairwa castes are exempted from income criteria. The aim is to ensure economic security and respect for the elderly population.",
-      "pubDate": "Tue, 20 May 2025 14:31:07 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Indira Gandhi National Disabled Pension Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "The Indira Gandhi National Disabled Pension Scheme, approved by the Rajasthan Government, provides financial assistance to persons aged 18 or above from BPL families suffering from multiple or severe disabilities. Eligible beneficiaries receive monthly pensions to support their livelihood, helping them live with dignity and security. Applications can be made through the Social Justice and Empowerment Department's official portal.",
-      "pubDate": "Tue, 20 May 2025 14:32:00 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Chief Minister Ekalnaari Samman Pension Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "The Chief Minister Ekalnaari Samman Pension Scheme supports widowed, abandoned, or divorced women aged 18 and above who are Rajasthan natives. Women without a regular income and an annual income below ₹48,000 are eligible for a monthly pension, ensuring financial assistance and promoting the welfare of single women in the state.",
-      "pubDate": "Tue, 20 May 2025 14:32:10 +0530",
-      "category": "Pension and Benefits"
-    },
-    {
-      "title": "Apply for Indira Gandhi National Old Age Pension Scheme, Rajasthan",
-      "link": "https://sjmsnew.rajasthan.gov.in/ebooklet",
-      "description": "The Indira Gandhi National Old Age Pension Scheme provides financial support to elderly citizens aged 60 and above from Below Poverty Line (BPL) families in Rajasthan. Initiated by the Central Government and implemented by the Rajasthan Government, the scheme ensures a monthly pension, promoting social security and dignity for senior citizens.",
-      "pubDate": "Tue, 20 May 2025 14:32:21 +0530",
       "category": "Pension and Benefits"
     }
   ]

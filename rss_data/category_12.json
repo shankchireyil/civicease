@@ -3,8 +3,29 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:33.404033",
+  "scraped_at": "2025-11-17T11:14:11.850424",
   "items": [
+    {
+      "title": "Apply for Small / Marginal Farmer Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Small / Marginal Farmer Certificate service on Tamil Nadu’s e-Sevai portal enables farmers to apply online for certification of their agricultural landholding status. This document is vital for availing government subsidies, crop loans, and welfare schemes. The e-Sevai platform simplifies the process through online application, document verification, and digital certificate issuance, ensuring quick, transparent, and accessible services to support the farming community across the state.",
+      "pubDate": "Thu, 13 Nov 2025 09:38:47 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Apply for Farmers Agricultural Income Certificate, Tamil Nadu",
+      "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
+      "description": "The Agricultural Income Certificate service on Tamil Nadu’s e-Sevai portal allows farmers and agriculturists to apply online for certification of income earned through agricultural activities. This document is essential for income verification, loan applications, and availing various subsidies or tax exemptions. The e-Sevai platform provides a secure, user-friendly process for online submission, verification, and issuance of the certificate, ensuring faster and more transparent service delivery...",
+      "pubDate": "Wed, 12 Nov 2025 09:36:38 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Forest Soil Health Card Download",
+      "link": "https://forestsoilhealthcards.icfre.gov.in/LoginRedirect?action=HealthCardPublic",
+      "description": "The Forest Soil Health Card(FSHC) project is an initiative by the Indian Council of Forestry Research and Education, Dehradun, under the Ministry of Environment, Forest and Climate Change, Government of India. It is a nationwide research-based program designed to assess, monitor, and improve forest soil health across all forest divisions in India. The FSHC web portal generates Digital Forest Soil Health Cards based on a consistent method to collect soil samples, testing 12 key parameters, and offering...",
+      "pubDate": "Thu, 30 Oct 2025 14:22:04 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
     {
       "title": "Application for Obtaining Land Ownership Rights on Village Population Land, Madhya Pradesh",
       "link": "https://saara.mp.gov.in/saaraweb/BhuSwamiAdhikar/BhuSwami_ApplicantionForm.aspx",
@@ -122,27 +143,6 @@
       "link": "https://www.bhulagan.bihar.gov.in/",
       "description": "The Online Bhu-Lagaan Payment system allows citizens to pay land revenue conveniently. This service enhances transparency and reduces the hassle of offline payments by providing a secure and accessible platform.",
       "pubDate": "Mon, 18 Nov 2024 16:50:01 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "Digitally Signed Bhu-Abhilekh by Department of Revenue and Land Reforms, Bihar",
-      "link": "https://bhuabhilekh.bihar.gov.in/login?ref=aW5kZXgucGhw",
-      "description": "The Bhu-Abhilekh portal by the Department of Revenue and Land Reforms, Bihar, offers digitally signed land records to citizens. This initiative ensures transparency, accessibility, and accuracy in property documentation, supporting the Digital India mission.",
-      "pubDate": "Mon, 18 Nov 2024 16:42:48 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "Complete e-KYC for Pradhan Mantri Kisan Samman Nidhi PM-Kisan",
-      "link": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
-      "description": "The e-KYC service is essential for verifying the identity of beneficiaries under the PM-Kisan scheme. Farmers can complete their Know Your Customer (KYC) process online, ensuring that they meet the eligibility criteria and receive timely disbursements of the financial aid.",
-      "pubDate": "Thu, 25 Jul 2024 12:16:16 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "Check the Status of Your Pradhan Mantri Kisan Samman Nidhi PM-Kisan Application",
-      "link": "https://pmkisan.gov.in/BeneficiaryStatus_New.aspx",
-      "description": "This service enables farmers to check the status of their applications for the PM-Kisan scheme. By entering their registration details, applicants can track the progress of their submissions and verify if they have been approved to receive the financial benefits.",
-      "pubDate": "Thu, 25 Jul 2024 12:13:54 +0530",
       "category": "Agriculture, Rural and Environment"
     }
   ]

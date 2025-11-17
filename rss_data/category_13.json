@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-10-26T10:25:33.756135",
+  "scraped_at": "2025-11-17T11:14:12.299000",
   "items": [
     {
       "title": "Apply for National Talent Search Scheme",
@@ -83,13 +83,6 @@
       "category": "Youth, Sports and Culture"
     },
     {
-      "title": "Online Ticket Booking for &quot;Must See&quot; Indian Heritage",
-      "link": "https://asimustsee.nic.in/",
-      "description": "The Ministry of Culture's Archaeological Survey of India has developed an online portal showcasing the &quot;MUST SEE&quot; List of Indian Heritage Sites and Monuments. This curated list highlights exceptional Indian monuments and archaeological sites, including those listed on UNESCO's World Heritage List and under the protection of the Archaeological Survey of India.",
-      "pubDate": "Tue, 12 Mar 2024 12:37:17 +0530",
-      "category": "Youth, Sports and Culture"
-    },
-    {
       "title": "Apply for Seva Bhoj Yojana",
       "link": "https://csms.nic.in/registration/seva_bhoj_yojana.php",
       "description": "&quot;&quot;&quot;Seva Bhoj Yojna&quot;&quot; is a Central Sector Scheme initiated by the Ministry of Culture, Government of India. Its aim is to alleviate the financial burden on charitable religious institutions that offer free Food/Prasad/Langar (Community Kitchen)/Bhandara to the public/devotees without discrimination, by reimbursing the Central Government's share of Central Goods and Services Tax (CGST) and Integrated Goods and Service Tax (IGST).&quot;",
@@ -125,13 +118,6 @@
       "category": "Youth, Sports and Culture"
     },
     {
-      "title": "NOC Format for Self Declaration for Post-Shoot Permission, Animal Welfare Board of India",
-      "link": "https://awbi.gov.in/uploads/documents/171757173206168234108718applnnoc_updated_001.pdf",
-      "description": "This NOC format is used to declare that animal welfare guidelines were followed during film shoots. It must be submitted to the Animal Welfare Board of India after shooting involving animals, ensuring transparency and accountability in the post-production phase.",
-      "pubDate": "Tue, 29 Apr 2025 12:18:07 +0530",
-      "category": "Youth, Sports and Culture"
-    },
-    {
       "title": "NOC Format for sending Film Shooting Intimation, Animal Welfare Board of India",
       "link": "https://awbi.gov.in/uploads/documents/168234113928shooting_intimation_new.pdf",
       "description": "This NOC format is required to notify the Animal Welfare Board of India before commencing film shoots involving animals. It ensures that the board is informed and can enforce ethical practices and proper treatment of animals during filming.",
@@ -143,6 +129,20 @@
       "link": "https://awbi.gov.in/uploads/documents/168234122412Fitness%20Certificate%20Part-B%20(1).pdf",
       "description": "This form certifies the fitness of animals after film shoots and must be submitted to the Animal Welfare Board of India. It is part of ensuring that animals used in media productions are not harmed or distressed during shoots.",
       "pubDate": "Tue, 29 Apr 2025 12:21:25 +0530",
+      "category": "Youth, Sports and Culture"
+    },
+    {
+      "title": "NOC Application Form for Obtaining Post-Shoot Permission, Animal Welfare Board of India",
+      "link": "https://awbi.gov.in/uploads/documents/171757173206168234108718applnnoc_updated_001.pdf",
+      "description": "This form is used to obtain official permission from the Animal Welfare Board of India after a shoot involving animals. It ensures that all regulatory and welfare standards were met and allows for continued compliance reporting.",
+      "pubDate": "Thu, 13 Nov 2025 15:31:21 +0530",
+      "category": "Youth, Sports and Culture"
+    },
+    {
+      "title": "Format for Self Declaration for Pre-Shoot Permission, Animal Welfare Board of India",
+      "link": "https://awbi.gov.in/uploads/documents/168234113928shooting_intimation_new.pdf",
+      "description": "Used for declaring intent and compliance before shooting with animals, this format assures the Animal Welfare Board that animal welfare protocols will be followed. It is a prerequisite for ethical film production practices.",
+      "pubDate": "Tue, 29 Apr 2025 12:25:12 +0530",
       "category": "Youth, Sports and Culture"
     }
   ]
