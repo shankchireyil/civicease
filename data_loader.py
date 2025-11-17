@@ -7,6 +7,7 @@ import glob
 from datetime import datetime
 from flaskblog import app, db
 from flaskblog.models import Post
+import time
 
 
 def parse_pubdate(s):
@@ -60,7 +61,7 @@ def import_file(path):
     return inserted, skipped
 
 
-if __name__ == '__main__':
+def run_import_cycle():
     imported_total = 0
     skipped_total = 0
     with app.app_context():
@@ -77,3 +78,5 @@ if __name__ == '__main__':
                 print('  -> Error importing', p, e)
 
     print(f'Done. Total rows inserted: {imported_total}, Total duplicates skipped: {skipped_total}')
+
+

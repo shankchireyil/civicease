@@ -9,6 +9,7 @@ import json
 import xml.etree.ElementTree as ET
 import os
 from datetime import datetime
+import time
 
 
 def scrape_category(cat_id):
@@ -73,7 +74,7 @@ def save_to_json(data, cat_id):
         return None
 
 
-def main():
+def run_scrapper():
     """Main scraper function"""
     print("Starting India Government RSS scraper for all categories...")
     
@@ -110,5 +111,3 @@ def main():
     print(f"\nTotal files created: {len(results)}")
 
 
-if __name__ == "__main__":
-    main()
