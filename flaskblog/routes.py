@@ -15,14 +15,6 @@ def landing():
     return render_template('landing.html', title='Welcome to CivicEase')
 
 
-@app.route("/post/<int:post_id>")
-@login_required
-def post_detail(post_id):
-    post = Post.query.get_or_404(post_id)
-    # Fetch all reviews for this post sorted by date (newest first)
-    reviews = Review.query.filter_by(post_id=post_id).order_by(Review.date_posted.desc()).all()
-    return render_template('post.html', post=post, reviews=reviews)
-
 @app.route("/home")
 @app.route("/dashboard")
 @login_required
@@ -57,6 +49,15 @@ def category_posts(category_id):
     return render_template('category_posts.html', posts=posts, 
                          category_name=category_name, category_id=category_id)
 
+
+
+@app.route("/post/<int:post_id>")
+@login_required
+def post_detail(post_id):
+    post = Post.query.get_or_404(post_id)
+    # Fetch all reviews for this post sorted by date (newest first)
+    reviews = Review.query.filter_by(post_id=post_id).order_by(Review.date_posted.desc()).all()
+    return render_template('post.html', post=post, reviews=reviews)
 
 
 @app.route("/register", methods=['GET', 'POST'])
