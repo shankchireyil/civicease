@@ -1,55 +1,77 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class="container-fluid">
-        <div class="row mb-4">
-            <div class="col-12">
-                <h2 class="text-center mb-4">Government Services Categories</h2>
-                <p class="text-center text-muted">Click on any category to view related government services</p>
-            </div>
-        </div>
-        
-        <div class="row">
-            {% for category in categories %}
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                    <div class="card h-100 shadow-sm category-card" onclick="location.href='{{ url_for('category_posts', category_id=category.rss_category_id) }}'" style="cursor: pointer; transition: transform 0.2s;">
-                        <div class="card-body d-flex flex-column">
-                            <div>
-                                <h5 class="card-title text-primary mb-2">{{ category.rss_category_name }}</h5>
-                                <p class="card-text text-muted small mb-0">
-                                    <i class="fas fa-file-alt"></i> {{ category.count }} services available
-                                </p>
-                            </div>
-                            
-                        </div>
-                        <div class="card-footer bg-light border-0">
-                            <small class="text-primary">
-                                <i class="fas fa-arrow-right"></i> Click to explore services
-                            </small>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="text-center mb-4">Government Services Categories</h2>
+            <p class="text-center text-muted">Click on any category to view related government services</p>
         </div>
     </div>
 
-    <style>
-        .category-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
-        }
-        
-        .category-card {
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-        }
-        
-        .category-card .card-body {
-            padding: 1.5rem;
-        }
-        
-        .category-icon i {
-            font-size: 1.2rem;
-        }
-    </style>
+    <div class="row">
+        {% for category in categories %}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100 shadow-sm category-card"
+                onclick="location.href='{{ url_for('category_posts', category_id=category.rss_category_id) }}'"
+                style="cursor: pointer; transition: transform 0.2s;">
+                <div class="card-body d-flex flex-column">
+                    <div>
+                        <h5 class="card-title text-primary mb-2">{{ category.rss_category_name }}</h5>
+                        <p class="card-text text-muted small mb-0">
+                            <i class="fas fa-file-alt"></i> {{ category.count }} services available
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card-footer bg-light border-0">
+                    <small class="text-primary">
+                        <i class="fas fa-arrow-right"></i> Click to explore services
+                    </small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="card mb-4">
+    <div class="card-header">
+        Top 5 Popular Posts
+    </div>
+    <ul class="list-group list-group-flush">
+        {% if top_posts %}
+        {% for post, count in top_posts %}
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div>
+                <a href="{{ url_for('post_detail', post_id=post.id) }}" class="fw-bold">{{ post.title }}</a>
+                <div class="small text-muted">{{ post.rss_category_name or 'Uncategorized' }}</div>
+            </div>
+            <span class="badge bg-primary rounded-pill">{{ count }}</span>
+        </li>
+        {% endfor %}
+        {% else %}
+        <li class="list-group-item">No popular posts yet.</li>
+        {% endif %}
+    </ul>
+</div>
+
+<style>
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .category-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+    }
+
+    .category-card .card-body {
+        padding: 1.5rem;
+    }
+
+    .category-icon i {
+        font-size: 1.2rem;
+    }
+</style>
 
 {% endblock content %}

@@ -5,9 +5,10 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request
 from flaskblog import app, db, bcrypt
 from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post, Review
+from flaskblog.models import User, Post, Review, Interest
 from flaskblog.email_reminders import check_and_send_reminders
 from flask_login import login_user, current_user, logout_user, login_required
+from sqlalchemy import func, desc
 
 @app.route("/")
 def landing():
@@ -32,7 +33,19 @@ def home():
         Post.rss_category_name
     ).order_by(Post.rss_category_id).all()
     
-    return render_template('home.html', categories=categories)
+
+    top_posts = db.session.query(
+        Post,func.count(Interest.id).label('interest_count')
+        ).outerjoin(
+            Interest, Interest.post_id == Post.id
+        ).group_by(
+            Post.id
+        ).order_by(
+            desc('interest_count')
+        ).limit(5).all()
+    
+
+    return render_template('home.html', categories=categories, top_posts=top_posts)
 
 
 @app.route("/category/<int:category_id>")
@@ -170,12 +183,34 @@ def add_comment():
         reminder_enabled=reminder_enabled,
         reminder_datetime=reminder_datetime
     )
+
     db.session.add(new_review)
     flash('Comment saved!', 'success')
     
     db.session.commit()
     return redirect(url_for('post_detail', post_id=post_id))
 
+
+
+@app.route("/toggle_interest/<int:post_id>", methods=["POST"])
+@login_required
+def toggle_interest(post_id):
+
+    existing = Interest.query.filter_by(
+        user_id=current_user.id, post_id=post_id
+    ).first()
+
+    if existing:
+        db.session.delete(existing)   # user unchecked the box
+        db.session.commit()
+        print("Interest removed")
+    else:
+        new_interest = Interest(user_id=current_user.id, post_id=post_id)
+        db.session.add(new_interest)  # user checked the box
+        db.session.commit()
+        print("Interest added")
+
+    return redirect(request.referrer)
 
 
 
