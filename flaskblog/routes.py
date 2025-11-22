@@ -213,4 +213,15 @@ def toggle_interest(post_id):
     return redirect(request.referrer)
 
 
+@app.route("/my_interests")
+@login_required
+def my_interests():
+
+    posts = db.session.query(Post).join(Interest).filter(
+        Interest.user_id == current_user.id
+    ).order_by(Post.rss_category_id).all()
+
+    category_name = "My Interested Services"
+
+    return render_template('my_interests.html', posts=posts, category_name=category_name, category_id=None)
 
