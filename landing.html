@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+    <!-- Hero Section -->
+    <div class="container-fluid bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 font-weight-bold mb-4">CivicEase</h1>
+                    <p class="lead mb-4">Your one-stop platform for accessing Indian Government services, schemes, and opportunities</p>
+                    <p class="mb-4">Simplifying access to education, healthcare, employment, financial services, and more - all in one place.</p>
+                    
+                    {% if current_user.is_authenticated %}
+                        <a href="{{ url_for('home') }}" class="btn btn-light btn-lg me-3">
+                            <i class="fas fa-tachometer-alt"></i> Go to Dashboard
+                        </a>
+                    {% else %}
+                        <a href="{{ url_for('register') }}" class="btn btn-light btn-lg me-3">
+                            <i class="fas fa-user-plus"></i> Get Started
+                        </a>
+                        <a href="{{ url_for('login') }}" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fas fa-building fa-10x opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container my-5">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="mb-4">What CivicEase Offers</h2>
+                <p class="lead text-muted">Access comprehensive information about Indian Government services across multiple categories</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <style>
+        .opacity-75 {
+            opacity: 0.75;
+        }
+        .fa-10x {
+            font-size: 10em;
+        }
+    </style>
+
+{% endblock content %}
