@@ -8,6 +8,7 @@ from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, Post
 from flaskblog.models import User, Post, Review, Interest
 from flaskblog.email_reminders import check_and_send_reminders
 from flask_login import login_user, current_user, logout_user, login_required
+from sqlalchemy import func, desc
 
 @app.route("/")
 def landing():
@@ -32,7 +33,19 @@ def home():
         Post.rss_category_name
     ).order_by(Post.rss_category_id).all()
     
-    return render_template('home.html', categories=categories)
+
+    top_posts = db.session.query(
+        Post,func.count(Interest.id).label('interest_count')
+        ).outerjoin(
+            Interest, Interest.post_id == Post.id
+        ).group_by(
+            Post.id
+        ).order_by(
+            desc('interest_count')
+        ).limit(5).all()
+    
+
+    return render_template('home.html', categories=categories, top_posts=top_posts)
 
 
 @app.route("/category/<int:category_id>")
