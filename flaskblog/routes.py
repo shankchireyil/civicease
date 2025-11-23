@@ -5,10 +5,10 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request
 from flaskblog import app, db, bcrypt
 from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post, Review, Interest
-from flaskblog.email_reminders import check_and_send_reminders
+from flaskblog.models import User, Post, Review, Interest, Notification
 from flask_login import login_user, current_user, logout_user, login_required
 from sqlalchemy import func, desc
+from datetime import datetime
 
 
 # ---------------------------------------------------------
@@ -215,8 +215,6 @@ def add_comment():
         content=comment_text,
         user_id=current_user.id,
         post_id=post_id,
-        reminder_enabled=reminder_enabled,
-        reminder_datetime=reminder_datetime
     )
 
     db.session.add(new_review)

@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:19.745792",
+  "scraped_at": "2025-11-23T12:27:22.913633",
   "items": [
     {
       "title": "Apply for Indian Citizenship",
@@ -83,13 +83,6 @@
       "category": "Citizenship, Visas &amp; Passports"
     },
     {
-      "title": "Apply online for Character Verification Certificate",
-      "link": "https://edistrict.andaman.gov.in/",
-      "description": "Character verification should be given priority when we talk about safety and security. Individual him/her self-apply for the character Verification and a copy of the same to be submitted in their local police station having any criminal background or not. (Non- Resident of Andaman Can’t apply this service).",
-      "pubDate": "Fri, 23 Jul 2021 15:40:06 +0530",
-      "category": "Citizenship, Visas &amp; Passports"
-    },
-    {
       "title": "e-Register - eSanad",
       "link": "https://esanad.nic.in/eregister",
       "description": "Citizens may retrieve the Apostille by specifying the Apostille/Attestation number; as per the Apostille Convention, Ministry of External Affairs (MEA), a Competent Authority to issue Apostilles in electronic form that are maintained in e-registers",
@@ -143,6 +136,13 @@
       "link": "https://indiancitizenshiponline.nic.in/Resumption",
       "description": "Ministry of Home Affairs offers online service to allow application for Declaration of Intention to Resume Indian Citizenship Under Section 8(2) of the Act made by a person.",
       "pubDate": "Thu, 14 Mar 2024 15:18:58 +0530",
+      "category": "Citizenship, Visas &amp; Passports"
+    },
+    {
+      "title": "Registration of a minor child Under Section 5(1)(d) of The Citizenship Act, 1955",
+      "link": "https://indiancitizenshiponline.nic.in",
+      "description": "Ministry of Home Affairs offers online service to allow application for registering a minor child under Section 5(1)(d) of the Citizenship Act, 1955",
+      "pubDate": "Thu, 14 Mar 2024 14:18:57 +0530",
       "category": "Citizenship, Visas &amp; Passports"
     }
   ]

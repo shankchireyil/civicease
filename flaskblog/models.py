@@ -19,7 +19,7 @@ class User(db.Model, UserMixin):
 
     reviews = db.relationship('Review', back_populates='user')
     interests = db.relationship('Interest', back_populates='user', cascade="all, delete-orphan")
-
+    notifications = db.relationship('Notification', back_populates='user', lazy='dynamic')
 
 class Post(db.Model):
     __tablename__ = 'post'
@@ -34,7 +34,7 @@ class Post(db.Model):
 
     reviews = db.relationship('Review', back_populates='post')
     interests = db.relationship('Interest', back_populates='post', cascade="all, delete-orphan")
-
+    notifications = db.relationship('Notification', back_populates='post', cascade="all, delete-orphan")
 
 class Review(db.Model):
 
@@ -45,11 +45,6 @@ class Review(db.Model):
     content = db.Column(db.Text, nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
     post_id = db.Column(db.Integer, db.ForeignKey('post.id'), nullable=False)
-    
-    # Reminder fields
-    reminder_enabled = db.Column(db.Boolean, nullable=False, default=False)
-    reminder_datetime = db.Column(db.DateTime, nullable=True)
-    reminder_sent = db.Column(db.Boolean, nullable=False, default=False)
 
     post = db.relationship('Post', back_populates='reviews')
     user = db.relationship('User', back_populates='reviews')
@@ -72,3 +67,18 @@ class Interest(db.Model):
     __table_args__ = (
         db.UniqueConstraint('user_id', 'post_id', name='unique_user_post_interest'),
     )
+
+
+class Notification(db.Model):
+    __tablename__ = 'notification'
+
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    post_id = db.Column(db.Integer, db.ForeignKey('post.id'), nullable=False)
+    message = db.Column(db.String(255), nullable=False)
+    scheduled_time = db.Column(db.DateTime, nullable=False)
+    is_read = db.Column(db.Boolean, default=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+    user = db.relationship('User', back_populates='notifications')
+    post = db.relationship('Post', back_populates='notifications')
