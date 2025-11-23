@@ -4,7 +4,7 @@ Simple database viewer using Flask app context and SQLAlchemy
 """
 
 from flaskblog import app, db
-from flaskblog.models import User, Post, Review
+from flaskblog.models import User, Post, Review, Interest
 
 
 def show_table_data(model_class, table_name, limit=10):
@@ -94,6 +94,7 @@ def main():
     show_table_data(User, "user", 10)
     show_table_data(Post, "post", 10)  
     show_table_data(Review, "review", 10)
+    show_table_data(Interest, "interest", 10)
     
     # Show detailed RSS data
     show_post_details(5)
