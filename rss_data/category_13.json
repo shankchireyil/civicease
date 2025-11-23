@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:20.743596",
+  "scraped_at": "2025-11-23T15:57:20.008885",
   "items": [
     {
       "title": "Apply for National Talent Search Scheme",
@@ -83,13 +83,6 @@
       "category": "Youth, Sports and Culture"
     },
     {
-      "title": "Apply for Seva Bhoj Yojana",
-      "link": "https://csms.nic.in/registration/seva_bhoj_yojana.php",
-      "description": "&quot;&quot;&quot;Seva Bhoj Yojna&quot;&quot; is a Central Sector Scheme initiated by the Ministry of Culture, Government of India. Its aim is to alleviate the financial burden on charitable religious institutions that offer free Food/Prasad/Langar (Community Kitchen)/Bhandara to the public/devotees without discrimination, by reimbursing the Central Government's share of Central Goods and Services Tax (CGST) and Integrated Goods and Service Tax (IGST).&quot;",
-      "pubDate": "Tue, 12 Mar 2024 12:36:53 +0530",
-      "category": "Youth, Sports and Culture"
-    },
-    {
       "title": "Centre for Cultural Resources and Training (CCRT)",
       "link": "https://ccrtindia.gov.in/",
       "description": "The CCRT revitalizes the education system by promoting awareness of India's diverse regional cultures among teachers, students, and administrators. It offers diverse training programs nationwide, including for special needs children, aiming to integrate cultural understanding into education effectively.",
@@ -143,6 +136,13 @@
       "link": "https://awbi.gov.in/uploads/documents/168234113928shooting_intimation_new.pdf",
       "description": "Used for declaring intent and compliance before shooting with animals, this format assures the Animal Welfare Board that animal welfare protocols will be followed. It is a prerequisite for ethical film production practices.",
       "pubDate": "Tue, 29 Apr 2025 12:25:12 +0530",
+      "category": "Youth, Sports and Culture"
+    },
+    {
+      "title": "Format for Intimation of Film Shooting, Animal Welfare Board of India",
+      "link": "https://awbi.gov.in/uploads/documents/168234113928shooting_intimation_new.pdf",
+      "description": "This form serves to notify the Animal Welfare Board of India about upcoming film shoots involving animals. The intimation helps the board monitor the planned use of animals, ensuring guidelines are adhered to during production.",
+      "pubDate": "Tue, 29 Apr 2025 12:26:20 +0530",
       "category": "Youth, Sports and Culture"
     }
   ]

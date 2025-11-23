@@ -3,8 +3,15 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:19.259072",
+  "scraped_at": "2025-11-23T15:57:18.831677",
   "items": [
+    {
+      "title": "Raise Grievance for Vehicle High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/GrievanceSelectState.aspx",
+      "description": "This portal helps vehicle owners raise grievances related to High Security Registration Plates (HSRP). Users can select their state, describe their issue, and submit complaints regarding booking, fitment, payment, or delivery. The grievance redressal system ensures prompt resolution and enhances user satisfaction by maintaining transparency and efficiency in managing HSRP-related concerns and feedback.",
+      "pubDate": "Fri, 21 Nov 2025 11:16:29 +0530",
+      "category": "Justice, Law and Grievances"
+    },
     {
       "title": "File and Track your Grievances related to Government Services Chennai, Tamil Nadu",
       "link": "https://cmhelpline.tnega.org/portal/en/home",
@@ -136,13 +143,6 @@
       "link": "https://rera.karnataka.gov.in/viewAllComplaints",
       "description": "Consumers who have filed complaints with Karnataka RERA can track the progress of their grievances through this online service. The portal provides real-time updates on the status of complaints, including the latest actions taken by the authority, hearing schedules, and resolutions. This service ensures transparency in handling real estate-related issues, allowing complainants to stay informed about the progress of their cases.",
       "pubDate": "Thu, 06 Mar 2025 14:30:50 +0530",
-      "category": "Justice, Law and Grievances"
-    },
-    {
-      "title": "Apply for Complaint Registration in Real Estate Regulatory Authority, Karnataka",
-      "link": "https://rera.karnataka.gov.in/complaintHome",
-      "description": "Homebuyers, investors, and other stakeholders can register complaints against developers, agents, or other entities involved in real estate transactions. This platform allows users to submit grievances related to project delays, misrepresentation, unfair practices, and non-compliance with RERA guidelines. The complaints are processed as per regulatory procedures to ensure justice and consumer protection.",
-      "pubDate": "Wed, 05 Mar 2025 15:10:17 +0530",
       "category": "Justice, Law and Grievances"
     }
   ]

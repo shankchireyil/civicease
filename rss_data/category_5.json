@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:17.510183",
+  "scraped_at": "2025-11-23T15:57:17.179122",
   "items": [
     {
       "title": "Track Online Application Status for Patient, Punjab",
@@ -28,9 +28,9 @@
     },
     {
       "title": "Online Licensing System, e‑AUSHADHI Portal",
-      "link": "https://e-aushadhi.gov.in/login",
+      "link": "https://www.e-aushadhi.gov.in/",
       "description": "A single-window system enables AYUSH manufacturers and drug-testing labs to apply for, track, and manage licenses related to Ayurveda, Siddha, Unani &amp; Homoeopathy drug production.",
-      "pubDate": "Wed, 30 Jul 2025 14:39:18 +0530",
+      "pubDate": "Thu, 20 Nov 2025 09:28:28 +0530",
       "category": "Health and Wellness"
     },
     {

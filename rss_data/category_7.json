@@ -3,7 +3,7 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:18.185436",
+  "scraped_at": "2025-11-23T15:57:17.834103",
   "items": [
     {
       "title": "Apply for Solvency Certificate, Tamil Nadu",
@@ -42,9 +42,9 @@
     },
     {
       "title": "Contribute to Chief Minister's Relief Fund, Punjab",
-      "link": "https://connect.punjab.gov.in/cmrelieffund",
+      "link": "https://rangla.punjab.gov.in/",
       "description": "This official portal enables citizens to contribute directly to the Chief Minister's Relief Fund, Punjab. The fund supports people affected by natural disasters, medical emergencies, and other crises. Through secure online transactions, donors can extend financial aid to vulnerable individuals and communities in need. Contributions are utilized transparently for humanitarian assistance, reflecting the government’s commitment to citizen welfare. The portal encourages public participation in social...",
-      "pubDate": "Thu, 16 Oct 2025 14:22:42 +0530",
+      "pubDate": "Wed, 19 Nov 2025 09:33:17 +0530",
       "category": "Money and Taxes"
     },
     {
@@ -104,6 +104,13 @@
       "category": "Money and Taxes"
     },
     {
+      "title": "Scheme of Financial Assistance under Seva Bhoj Yojna",
+      "link": "https://culture.gov.in/offering/schemes-services/scheme-financial-assistance-under-seva-bhoj-yojna",
+      "description": "&quot;&quot;&quot;Seva Bhoj Yojna&quot;&quot; is a Central Sector Scheme initiated by the Ministry of Culture, Government of India. Its aim is to alleviate the financial burden on charitable religious institutions that offer free Food/Prasad/Langar (Community Kitchen)/Bhandara to the public/devotees without discrimination, by reimbursing the Central Government's share of Central Goods and Services Tax (CGST) and Integrated Goods and Service Tax (IGST).&quot;",
+      "pubDate": "Wed, 19 Nov 2025 09:42:20 +0530",
+      "category": "Money and Taxes"
+    },
+    {
       "title": "e-AASTHI Citizen Application, Karnataka",
       "link": "https://eaasthi.karnataka.gov.in/",
       "description": "The e-AASTHI citizen application is a property tax information system &amp;#40;Aasthi&amp;#41;. Citizens can apply for E-Aasthi by filling out an online application and uploading the required documents.",
@@ -136,13 +143,6 @@
       "link": "https://myjammu.in/myjammu/index.html",
       "description": "My Jammu mobile application, a result of the combined efforts of the Jammu Municipal Corporation and Jammu Smart City limited. This application aims to transform the city of temples, into an even smarter and more efficient urban center. Through this application, every citizen will have access to all the city's services on a single platform",
       "pubDate": "Tue, 08 Jul 2025 16:43:28 +0530",
-      "category": "Money and Taxes"
-    },
-    {
-      "title": "Online Checkpost Tax Payment of Vehicles",
-      "link": "https://checkpost.parivahan.gov.in/checkpost/faces/login.xhtml#",
-      "description": "Checkpost portal is meant to be a common platform from where various checkpost services are provided to citizens, as and when they are developed by the department. These services are being started for online checkpost tax payment of vehicles. The owners of these vehicles can access to the portal from any internet access point,",
-      "pubDate": "Wed, 15 May 2024 11:39:23 +0530",
       "category": "Money and Taxes"
     }
   ]
