@@ -12,12 +12,12 @@
     <!-- CATEGORY GRID (3 per row) -->
     <div class="row px-4">
         {% for category in categories %}
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-            
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+
             <!-- ENTIRE CARD CLICKABLE -->
             <div class="card h-100 shadow-sm category-card"
-                 onclick="window.location.href='{{ url_for('category_posts', category_id=category.rss_category_id) }}'"
-                 style="cursor:pointer;">
+                onclick="window.location.href='{{ url_for('category_posts', category_id=category.rss_category_id) }}'"
+                style="cursor:pointer;">
 
                 <div class="card-body">
                     <h5 class="card-title text-primary">{{ category.rss_category_name }}</h5>
@@ -55,35 +55,35 @@
 <script>
     const pieCtx = document.getElementById('trendingPieChart');
 
-    const postUrls = {{ top_posts | map(attribute=0) | map(attribute='id') | list | tojson }};
+    const postUrls = {{ top_posts | map(attribute = 0) | map(attribute = 'id') | list | tojson }};
 
     const trendingPieChart = new Chart(pieCtx, {
         type: 'pie',
         data: {
             labels: {{ chart_labels | tojson }},
-            datasets: [{
-                data: {{ chart_values | tojson }},
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.7)',
-                    'rgba(54, 162, 235, 0.7)',
-                    'rgba(255, 206, 86, 0.7)',
-                    'rgba(75, 192, 192, 0.7)',
-                    'rgba(153, 102, 255, 0.7)'
-                ],
-                borderWidth: 2
+    datasets: [{
+        data: {{ chart_values | tojson }},
+        backgroundColor: [
+        'rgba(255, 99, 132, 0.7)',
+        'rgba(54, 162, 235, 0.7)',
+        'rgba(255, 206, 86, 0.7)',
+        'rgba(75, 192, 192, 0.7)',
+        'rgba(153, 102, 255, 0.7)'
+    ],
+        borderWidth: 2
             }]
         },
-        options: {
-            responsive: true,
-            plugins: { legend: { position: 'bottom' }},
-            onClick: (evt, elements) => {
-                if (elements.length > 0) {
-                    const index = elements[0].index;
-                    const postId = postUrls[index];
-                    window.location.href = "/post/" + postId;
-                }
+    options: {
+        responsive: true,
+            plugins: { legend: { position: 'bottom' } },
+        onClick: (evt, elements) => {
+            if (elements.length > 0) {
+                const index = elements[0].index;
+                const postId = postUrls[index];
+                window.location.href = "/post/" + postId;
             }
         }
+    }
     });
 </script>
 
@@ -91,13 +91,13 @@
     /* CATEGORY CARD HOVER EFFECT */
     .category-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
     }
 
     .category-card {
         border: 1px solid #e0e0e0;
         border-radius: 10px;
-        min-width: 240px;
+        min-width: 100%;
     }
 
     .category-card h5 {
