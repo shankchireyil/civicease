@@ -3,7 +3,11 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
+<<<<<<< HEAD
   "scraped_at": "2025-11-23T12:26:58.733759",
+=======
+  "scraped_at": "2025-11-23T15:57:15.713402",
+>>>>>>> fc2327aae4a3e082fb36fdb69eb1eda34270a459
   "items": [
     {
       "title": "Apply Certificate for Loss of Educational Records due to Disasters, Tamil Nadu",
