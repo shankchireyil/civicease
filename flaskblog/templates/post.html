@@ -13,67 +13,65 @@
                     {% endif %}
                     <hr>
                     <p class="card-text">{{ post.rss_description }}</p>
-                    {% if post.rss_link %}
-                        <a href="{{ post.rss_link }}" target="_blank" class="btn btn-outline-primary btn-sm mb-2">
-                            <i class="fas fa-external-link-alt"></i> Visit Service
-                        </a>
-                   
-                        <!-- newly added -->
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        {% if post.rss_link %}
+                            <a href="{{ post.rss_link }}" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Visit Service
+                            </a>
+                        {% endif %}
 
                         <form id="interestForm{{ post.id }}" method="POST" action="{{ url_for('toggle_interest', post_id=post.id) }}">
-                            <label>
-                                <input type="checkbox"
-                                    name="interested"
-                                    value="yes"
-                                    onchange="document.getElementById('interestForm{{ post.id }}').submit();"
-                                    {% if current_user.is_authenticated 
-                                            and (current_user.interests | selectattr('post_id', 'equalto', post.id) | list) %}
-                                            checked
-                                    {% endif %}>
-                                I am Interested
+                            <label class="btn btn-light btn-sm mb-0">
+                                <input type="checkbox" name="interested" value="yes" 
+                                onchange="document.getElementById('interestForm{{ post.id }}').submit();"
+                                {% if current_user.is_authenticated and (current_user.interests | selectattr('post_id', 'equalto', post.id) | list) %} checked {% endif %}>
+                                <i class="fas fa-star text-warning"></i> Interested
                             </label>
                         </form>
-
-
-
-
-
-                    {% endif %}
+                    </div>
+                    
                     <hr>
-                    <!-- Comments Section -->
+
+                    {% if current_user.is_authenticated %}
+                    <div class="card bg-light mb-3">
+                        <div class="card-body py-2">
+                            <h6 class="card-subtitle mb-2 text-muted"><i class="fas fa-bell"></i> Set a Reminder</h6>
+                            <form method="POST" action="{{ url_for('set_notification') }}" class="form-inline justify-content-between">
+                                <input type="hidden" name="post_id" value="{{ post.id }}">
+                                
+                                <input type="text" name="message" class="form-control form-control-sm mr-2" placeholder="Reminder note" required style="width: 45%;">
+                                
+                                <input type="datetime-local" name="scheduled_time" class="form-control form-control-sm mr-2" required>
+                                
+                                <button type="submit" class="btn btn-info btn-sm">Set</button>
+                            </form>
+                        </div>
+                    </div>
+                    {% endif %}
+
                     {% if current_user.is_authenticated %}
                         <form method="POST" action="{{ url_for('add_comment') }}">
                             <input type="hidden" name="post_id" value="{{ post.id }}">
                             <div class="mb-2">
                                 <textarea class="form-control" name="comment" rows="3" placeholder="Add your comment..."></textarea>
                             </div>
-                            <div class="form-check mb-2">
-                                <input class="form-check-input" type="checkbox" name="reminder_enabled" id="reminder_{{ post.id }}" value="1">
-                                <label class="form-check-label" for="reminder_{{ post.id }}">📧 Set reminder</label>
-                            </div>
-                            <div class="mb-2" id="datetime_container_{{ post.id }}" style="display:none;">
-                                <input type="datetime-local" class="form-control" name="reminder_datetime">
-                            </div>
-                            <button type="submit" class="btn btn-primary btn-sm">Save Comment</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Post Comment</button>
                         </form>
-                        <script>
-                            document.getElementById('reminder_{{ post.id }}').addEventListener('change', function() {
-                                document.getElementById('datetime_container_{{ post.id }}').style.display = this.checked ? 'block' : 'none';
-                            });
-                        </script>
                     {% else %}
                         <small class="text-muted">
                             <a href="{{ url_for('login') }}">Login</a> to add comments and set reminders
                         </small>
                     {% endif %}
+                    
                     <hr>
-                    <!-- Show all comments -->
+                    
                     {% if reviews %}
                         <div class="comments-section">
                             <h6 class="small text-muted mb-2">Comments:</h6>
                             {% for review in reviews %}
                                 <div class="small mb-2 p-2 bg-white rounded border">
-                                    <div class="d-flex justify-content-between">
+                                    <div class="d-flex justify-content-between border-bottom pb-1 mb-1">
                                         <strong>{{ review.user.username }}</strong>
                                         <small class="text-muted">{{ review.date_posted.strftime('%d/%m/%y') }}</small>
                                     </div>

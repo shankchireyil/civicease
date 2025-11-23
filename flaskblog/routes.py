@@ -5,10 +5,10 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request
 from flaskblog import app, db, bcrypt
 from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post, Review, Interest
-from flaskblog.email_reminders import check_and_send_reminders
+from flaskblog.models import User, Post, Review, Interest, Notification
 from flask_login import login_user, current_user, logout_user, login_required
 from sqlalchemy import func, desc
+from datetime import datetime
 
 
 # ---------------------------------------------------------
@@ -193,30 +193,26 @@ def account():
 @app.route("/add_comment", methods=['POST'])
 @login_required
 def add_comment():
-    from datetime import datetime
-
+    
+    # Get form data
     post_id = request.form.get('post_id')
     comment_text = request.form.get('comment')
-    reminder_enabled = request.form.get('reminder_enabled') == '1'
-    reminder_time = request.form.get('reminder_datetime')
-
-    if not comment_text:
-        flash("Comment cannot be empty", "warning")
-        return redirect(url_for("post_detail", post_id=post_id))
-
-    reminder_datetime = None
-    if reminder_enabled and reminder_time:
-        try:
-            reminder_datetime = datetime.strptime(reminder_time, "%Y-%m-%dT%H:%M")
-        except:
-            flash("Invalid reminder date format", "danger")
+    
+    if not post_id or not comment_text:
+        flash('Invalid comment data', 'danger')
+        return redirect(url_for('home'))
+    
+    # Convert post_id to int and create a new review entry for every submission
+    try:
+        post_id = int(post_id)
+    except (TypeError, ValueError):
+        flash('Invalid post id', 'danger')
+        return redirect(url_for('home'))
 
     new_review = Review(
         content=comment_text,
         user_id=current_user.id,
         post_id=post_id,
-        reminder_enabled=reminder_enabled,
-        reminder_datetime=reminder_datetime
     )
 
     db.session.add(new_review)
@@ -249,3 +245,74 @@ def toggle_interest(post_id):
         print("Interest added")
 
     return redirect(request.referrer)
+
+
+@app.route("/my_interests")
+@login_required
+def my_interests():
+
+    posts = db.session.query(Post).join(Interest).filter(
+        Interest.user_id == current_user.id
+    ).order_by(Post.rss_category_id).all()
+
+    category_name = "My Interested Services"
+
+    return render_template('my_interests.html', posts=posts, category_name=category_name, category_id=None)
+
+@app.route("/set_notification", methods=['POST'])
+@login_required
+def set_notification():
+    post_id = request.form.get('post_id')
+    message = request.form.get('message')
+    scheduled_time_str = request.form.get('scheduled_time')
+
+    if not all([post_id, message, scheduled_time_str]):
+        flash('Missing information', 'danger')
+        return redirect(request.referrer)
+
+    try:
+        scheduled_time = datetime.strptime(scheduled_time_str, '%Y-%m-%dT%H:%M')
+        post_id = int(post_id)
+        
+        if scheduled_time < datetime.utcnow():
+            flash('Notification time cannot be in the past', 'warning')
+            return redirect(request.referrer)
+
+        notif = Notification(
+            user_id=current_user.id,
+            post_id=post_id,
+            message=message,
+            scheduled_time=scheduled_time
+        )
+        db.session.add(notif)
+        db.session.commit()
+        flash(f'Notification set for {scheduled_time.strftime("%d %b %H:%M")}', 'success')
+
+    except ValueError:
+        flash('Invalid date format', 'danger')
+    
+    return redirect(url_for('post_detail', post_id=post_id))
+
+
+@app.route("/read_notification/<int:notif_id>")
+@login_required
+def read_notification(notif_id):
+    notif = Notification.query.get_or_404(notif_id)
+    if notif.user_id != current_user.id:
+        abort(403)
+    
+    notif.is_read = True
+    db.session.commit()
+    return redirect(url_for('post_detail', post_id=notif.post_id))
+
+@app.context_processor
+def inject_notifications():
+    if current_user.is_authenticated:
+        unread_notifs = Notification.query.filter(
+            Notification.user_id == current_user.id,
+            Notification.is_read == False,
+            Notification.scheduled_time <= datetime.now()
+        ).order_by(Notification.scheduled_time.desc()).all()
+        
+        return dict(active_notifications=unread_notifs)
+    return dict(active_notifications=[])
