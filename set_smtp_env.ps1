@@ -1,5 +1,0 @@
-$env:SMTP_SERVER="smtp.gmail.com"
-$env:SMTP_PORT="587"
-$env:SMTP_USER="shanmuhammed789@gmail.com"
-$env:SMTP_PASSWORD="unxg wata joia vlhy"
-$env:FROM_EMAIL="no-reply@civicease.com"
