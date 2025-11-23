@@ -3,8 +3,71 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-  "scraped_at": "2025-11-17T15:48:18.930685",
+  "scraped_at": "2025-11-23T12:27:22.232823",
   "items": [
+    {
+      "title": "Check Receipt Validity for Vehicle High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/ReceiptValidity.aspx",
+      "description": "This service allows vehicle owners to verify the validity of their High Security Registration Plate (HSRP) receipt online. By entering the receipt or vehicle registration number, users can confirm whether their booking is active and valid for fitment. The feature promotes transparency, prevents fraudulent activities, and ensures users proceed with legitimate HSRP installation under authorized channels.",
+      "pubDate": "Fri, 21 Nov 2025 11:23:04 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Order Cancellation and Refund for Vehicle High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/OrderCancel.aspx",
+      "description": "This portal allows vehicle owners to cancel their High Security Registration Plate (HSRP) order and request a refund if required. By entering booking details, users can initiate cancellation before the installation process begins. The platform ensures a smooth refund process, maintaining transparency and customer satisfaction while adhering to HSRP booking and payment policies established by authorized agencies.",
+      "pubDate": "Fri, 21 Nov 2025 11:21:15 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Reschedule Your Appointment for Vehicle High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/ReAppointment.aspx",
+      "description": "This service enables vehicle owners to easily reschedule their appointment for High Security Registration Plate (HSRP) installation. Users who missed their original slot or wish to change their appointment date can conveniently update it online by providing vehicle and booking details. The portal ensures flexibility, user convenience, and adherence to government guidelines for timely and secure HSRP fitment.",
+      "pubDate": "Fri, 21 Nov 2025 11:18:47 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Track Your Order of High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/TrackOrder.aspx",
+      "description": "This feature enables users to track the status of their High Security Registration Plate (HSRP) order online. By entering order details or vehicle registration number, users can check updates on processing, dispatch, or installation appointments. The system provides real-time tracking, ensuring transparency, convenience, and timely delivery of HSRP and color stickers to registered vehicle owners.",
+      "pubDate": "Fri, 21 Nov 2025 11:15:09 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Book High Security Registration Plate For Tractor and Trailer",
+      "link": "https://bookmyhsrp.com/plate/VahanBookingDetail.aspx?id=Trailer",
+      "description": "This online service allows tractor and trailer owners to book High Security Registration Plates (HSRP) as per government regulations. Users can enter their registration details, select a convenient fitment location, and schedule an appointment. The platform ensures authenticity, compliance with transport norms, and vehicle security through tamper-proof, standardized plates, simplifying the registration process for agricultural and commercial vehicles.",
+      "pubDate": "Fri, 21 Nov 2025 11:10:53 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Book High Security Registration Plate For Electric Vehicle",
+      "link": "https://bookmyhsrp.com/plate/VahanBookingDetail.aspx?id=ElectricVehicle",
+      "description": "Electric vehicle owners can use this service to book High Security Registration Plates (HSRP) specifically designed for EVs. The portal ensures compliance with government-mandated safety norms while providing secure and tamper-proof plates. Users can book online by entering vehicle details, choosing a fitment center, and selecting suitable dates for installation, promoting sustainable mobility and regulatory adherence.",
+      "pubDate": "Fri, 21 Nov 2025 11:08:56 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Book Only Vehicle Colour Sticker High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/sticker/VahanBookingDetail.aspx",
+      "description": "This portal facilitates the booking of only color-coded stickers associated with High Security Registration Plates (HSRP). Designed to indicate the vehicle’s fuel type, these stickers are mandatory for easy identification and regulatory compliance. Vehicle owners can book their color sticker online, select a convenient fitment location, and ensure adherence to government safety and environmental standards.",
+      "pubDate": "Fri, 21 Nov 2025 11:07:06 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Book Vehicle Replacement/ Retain/ Transfer High Security Registration Plate",
+      "link": "https://bookmyhsrp.com/plate/ReplacementBooking.aspx",
+      "description": "This service enables vehicle owners to book replacement, retention, or transfer of their High Security Registration Plate (HSRP). Whether due to damage, theft, or change in ownership, users can easily apply online by entering their vehicle registration details. The platform ensures smooth processing and compliance with transport department regulations, offering a hassle-free experience for managing HSRP-related updates.",
+      "pubDate": "Fri, 21 Nov 2025 11:05:34 +0530",
+      "category": "Transport and Infrastructure"
+    },
+    {
+      "title": "Book Vehicle High Security Registration Plate with Colour Sticker",
+      "link": "https://bookmyhsrp.com/sticker/VahanBookingDetail.aspx",
+      "description": "This portal allows vehicle owners to conveniently book High Security Registration Plates (HSRP) with color-coded stickers as per government regulations. Users can enter their vehicle details, select their state, and schedule an appointment for installation at authorized centers. The platform ensures authenticity, compliance, and safety, helping vehicle owners meet mandatory HSRP norms efficiently and securely.",
+      "pubDate": "Fri, 21 Nov 2025 11:03:43 +0530",
+      "category": "Transport and Infrastructure"
+    },
     {
       "title": "Apply for Vehicle Maintenance Log Book and Workshop Stock Register in Patna, Bihar",
       "link": "https://pmcworkshop.bihar.gov.in/login",
@@ -80,69 +143,6 @@
       "link": "https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do",
       "description": "The Bihar Driving License application service via the Sarathi portal allows citizens to apply for a new driving license online. Applicants can select their state, fill out forms, upload necessary documents, book slot appointments, and make payments digitally. The portal simplifies the licensing process by minimizing paperwork and providing real-time updates. This online service promotes efficiency, transparency, and convenience, enabling individuals to obtain valid driving licenses seamlessly without...",
       "pubDate": "Mon, 15 Sep 2025 12:10:13 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Know Your Vehicle Application Status, Bihar",
-      "link": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml",
-      "description": "The &quot;Know Your Vehicle Application Status&quot; service in Bihar helps applicants track the progress of their vehicle-related applications submitted through the Vahan portal. By entering details such as application number or registration details, users can instantly view updates on pending approvals, verification, or issuance of documents. This service enhances transparency, reduces the need for repeated visits to RTOs, and ensures applicants remain informed about their vehicle-related processes,...",
-      "pubDate": "Mon, 15 Sep 2025 12:09:13 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Check online Vehicle e-Challan, Bihar",
-      "link": "https://echallan.parivahan.gov.in/",
-      "description": "The Bihar online vehicle e-Challan portal enables citizens to check traffic challans issued against their vehicles. Users can view pending challans by entering vehicle details, driving license number, or challan number. This digital service provides transparency and convenience by allowing online payment of fines, avoiding unnecessary delays. It helps vehicle owners remain updated on traffic violations, promotes adherence to road safety regulations, and ensures smooth clearance of challans without...",
-      "pubDate": "Mon, 15 Sep 2025 12:05:50 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply Speed Limiting Device for Vehicle, Bihar",
-      "link": "https://vahan.parivahan.gov.in/sldmaker/vahan/welcome.xhtml",
-      "description": "This online service allows manufacturers and dealers in Bihar to register as authorized Speed Limiting Device (SLD) providers through the VAHAN portal. The system ensures that vehicles, especially commercial ones, comply with road safety regulations by limiting maximum speed. The portal facilitates digital applications, certification, and monitoring, ensuring accuracy and transparency. By promoting installation of speed governors, the service enhances road safety, reduces accidents, and supports...",
-      "pubDate": "Mon, 15 Sep 2025 12:04:07 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Vehicle CNG Maker, Bihar",
-      "link": "https://vahan.parivahan.gov.in/cngmaker/vahan/welcome.xhtml",
-      "description": "The VAHAN portal provides an online platform for vehicle manufacturers and authorized dealers in Bihar to register as CNG makers. This service facilitates the approval and integration of CNG conversion kits for vehicles in compliance with safety and environmental standards. It ensures proper certification, reduces paperwork, and promotes transparency in the registration process. By encouraging the adoption of eco-friendly fuel systems, the service supports sustainable transport initiatives and cleaner...",
-      "pubDate": "Mon, 15 Sep 2025 12:02:24 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Vehicle Fancy Number, Bihar",
-      "link": "https://fancy.parivahan.gov.in/fancy/faces/public/login.xhtml",
-      "description": "This online service enables vehicle owners in Bihar to apply for fancy or special registration numbers through the Parivahan portal. Users can check availability, bid for numbers, and complete applications digitally. The system ensures transparency in allocation, minimizes manual intervention, and provides equal opportunity to applicants. By offering convenience and efficiency, it streamlines the process of obtaining preferred registration numbers while maintaining accurate records and compliance...",
-      "pubDate": "Mon, 15 Sep 2025 12:01:19 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Vehicle National Permit, Bihar",
-      "link": "https://vahan.parivahan.gov.in/npermit/",
-      "description": "The National Permit application service on the VAHAN portal allows vehicle owners in Bihar to apply online for permits required for interstate commercial transport. This facility simplifies the process by enabling digital applications, document uploads, and secure payments. It reduces paperwork, ensures transparency, and provides faster approvals. By granting valid national permits, the service facilitates smooth operations for transporters, enhances compliance with motor vehicle regulations, and...",
-      "pubDate": "Mon, 15 Sep 2025 11:28:18 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Vehicle Dealer Point Registration, Bihar",
-      "link": "https://vahan.parivahan.gov.in/vahan/vahan/ui/login/login.xhtml",
-      "description": "This service on the VAHAN portal enables automobile dealers in Bihar to apply for Dealer Point Registration. It streamlines processes related to registering new vehicles directly through authorized dealers, reducing delays for customers. The online facility ensures efficiency, transparency, and convenience by allowing digital applications and status tracking. It helps maintain accurate records of new vehicle registrations and strengthens coordination between transport authorities and dealerships,...",
-      "pubDate": "Fri, 12 Sep 2025 12:28:28 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Registration Certificate (RC) Release, Bihar",
-      "link": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml",
-      "description": "This VAHAN service facilitates the release of a vehicle’s Registration Certificate (RC) in Bihar after compliance with applicable requirements. Vehicle owners can apply online, submit documents, and track the process digitally. The system reduces manual delays, ensures transparency, and simplifies the procedure for users. By providing convenience and efficiency, it helps maintain accurate ownership records, supports legal compliance, and enhances the overall ease of availing transport-related services...",
-      "pubDate": "Fri, 12 Sep 2025 12:27:26 +0530",
-      "category": "Transport and Infrastructure"
-    },
-    {
-      "title": "Apply for Alteration of Vehicle, Bihar",
-      "link": "https://vahan.parivahan.gov.in/vahanservice/vahan/ui/statevalidation/homepage.xhtml",
-      "description": "The VAHAN portal offers an online application service for vehicle owners in Bihar seeking to alter their vehicles, such as modifications in design, structure, or usage. Applicants can submit requests, provide required documents, and receive approvals digitally. This system ensures compliance with motor vehicle rules, promotes transparency, and simplifies procedures by minimizing in-person visits. By keeping registration records updated with alterations, the service ensures vehicles remain roadworthy...",
-      "pubDate": "Fri, 12 Sep 2025 12:26:24 +0530",
       "category": "Transport and Infrastructure"
     }
   ]
