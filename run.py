@@ -1,4 +1,4 @@
-from flaskblog import app
+from civic_app import app
 
 if __name__ == '__main__':
     # Make the app accessible over LAN

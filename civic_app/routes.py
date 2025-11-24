@@ -3,9 +3,9 @@ import os
 import secrets
 from PIL import Image
 from flask import render_template, url_for, flash, redirect, request
-from flaskblog import app, db, bcrypt
-from flaskblog.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
-from flaskblog.models import User, Post, Review, Interest, Notification
+from civic_app import app, db, bcrypt
+from civic_app.forms import RegistrationForm, LoginForm, UpdateAccountForm, PostForm
+from civic_app.models import User, Post, Review, Interest, Notification
 from flask_login import login_user, current_user, logout_user, login_required
 from sqlalchemy import func, desc
 from datetime import datetime

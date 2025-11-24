@@ -1,5 +1,4 @@
-from data_loader import run_import_cycle
-from data_scrapper import run_scrapper
+from scrapper import run_import_cycle , run_scrapper
 import time
 
 hours_to_sleep = 1

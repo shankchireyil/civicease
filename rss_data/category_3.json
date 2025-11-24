@@ -3,12 +3,15 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-<<<<<<< HEAD
-  "scraped_at": "2025-11-23T12:26:59.427950",
-=======
-  "scraped_at": "2025-11-23T15:57:16.385773",
->>>>>>> fc2327aae4a3e082fb36fdb69eb1eda34270a459
+  "scraped_at": "2025-11-24T18:53:04.106910",
   "items": [
+    {
+      "title": "Apply for Online Building Permission, Jammu and Kashmir",
+      "link": "https://huddobps.jk.gov.in/",
+      "description": "The Online Building Permission System &amp;#40;OBPS&amp;#41; of Jammu and Kashmir provides a seamless, transparent, and efficient platform for citizens, architects, and builders to apply for building construction and layout approvals. Managed by the Housing &amp; Urban Development Department, the portal streamlines submission, verification, and approval processes digitally. It aims to ensure faster clearances, reduce manual intervention, and promote accountability in urban development across the...",
+      "pubDate": "Mon, 24 Nov 2025 10:49:24 +0530",
+      "category": "Electricity, Water and Local services"
+    },
     {
       "title": "Apply for Residence Certificate, Tamil Nadu",
       "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
@@ -140,13 +143,6 @@
       "link": "https://automap.bihar.gov.in/PATNABPASPORTAL/#portfolio",
       "description": "You can submit your Building Plan Approval application online on AutoMAP system and get the Building Approval Certificate at your desk.  AutoMAP can be used to apply for new building plan, revision of approved building plan, addition/alterations of existing buildings with prior approvals and occupancy permits from Patna Municipal Corporation and relating to categories of buildings mentioned in Bihar Building Bylaws 2014.",
       "pubDate": "Wed, 29 Oct 2025 10:36:52 +0530",
-      "category": "Electricity, Water and Local services"
-    },
-    {
-      "title": "Download Temporary Selection letter CM''s Multi-Storey Bangalore Housing Project of 1 BHK, Karnataka",
-      "link": "https://ashraya.karnataka.gov.in/cm_selection_flat/download_selection_ack.aspx",
-      "description": "Applicants of the Chief Minister’s Multi-Storey Housing Project for 1 BHK flats in Bangalore can use this portal to download their temporary selection letters. This document confirms their provisional allotment under the scheme, pending final verification and approval. The facility offers applicants digital convenience, ensuring timely updates and transparent communication. By providing easy access to official documents, the Karnataka Government demonstrates its commitment to efficient governance,...",
-      "pubDate": "Wed, 29 Oct 2025 10:29:03 +0530",
       "category": "Electricity, Water and Local services"
     }
   ]

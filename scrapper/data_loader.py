@@ -5,8 +5,8 @@ Creates Post rows with RSS fields filled. Uses app context and SQLAlchemy sessio
 import json
 import glob
 from datetime import datetime
-from flaskblog import app, db
-from flaskblog.models import Post
+from civic_app import app, db
+from civic_app.models import Post
 import time
 
 

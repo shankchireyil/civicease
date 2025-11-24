@@ -3,12 +3,29 @@
   "category_name": "National Government Services Portal",
   "title": "National Government Services Portal",
   "description": "National Government Services Portal of India provides single window access to services offered by the various Indian Government entities. This Portal is an initiative under the India Portal Project and has been designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India.",
-<<<<<<< HEAD
-  "scraped_at": "2025-11-23T12:27:23.236121",
-=======
-  "scraped_at": "2025-11-23T15:57:19.573423",
->>>>>>> fc2327aae4a3e082fb36fdb69eb1eda34270a459
+  "scraped_at": "2025-11-24T18:53:07.403597",
   "items": [
+    {
+      "title": "Farmers apply for e-Kisan Upaj Nidhi Scheme",
+      "link": "https://wdra.gov.in/digital/eng.html",
+      "description": "e-Kisan Upaj Nidhi provides the farmers, an online platform to obtain post-harvest loans from banks by pledging their electronic Negotiable Warehouse Receipts (e-NWRs) for the stocks kept in WDRA registered warehouses. A joint endeavor of Department of Food and Public Distribution, WDRA, Department of Financial Services and NABARD, this gateway will improve ease of obtaining pledge finance by farmers against their stocks.",
+      "pubDate": "Mon, 24 Nov 2025 11:35:27 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Farmers view Seed / Gypsum Dashboard, Uttar Pradesh",
+      "link": "https://agriculture.up.gov.in/dbt/ada/KisanEventDashNew.aspx",
+      "description": "This online dashboard provides farmers with easy access to information about training programs, seminars, fairs, and agricultural events organized across Uttar Pradesh. It displays event schedules, locations, topics, and registration details to help farmers stay informed about skill-building opportunities. The platform promotes knowledge sharing, capacity building, and awareness of government initiatives. By connecting farmers with relevant events, it helps them upgrade agricultural practices, adopt...",
+      "pubDate": "Mon, 24 Nov 2025 11:12:01 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
+    {
+      "title": "Natural Farming Programme, Uttar Pradesh",
+      "link": "https://agriculture.up.gov.in/nmnf/natural_farming/nmnf#",
+      "description": "The Natural Farming Programme portal of Uttar Pradesh promotes chemical-free, sustainable agricultural practices for farmers across the state. It provides information on natural farming methods, training resources, demonstration activities, and scheme-related benefits under the national mission. Farmers can learn about soil health, traditional techniques, bio-inputs, and environmentally friendly cultivation. The platform helps support eco-friendly agriculture, enhances awareness, and assists farmers...",
+      "pubDate": "Mon, 24 Nov 2025 11:00:45 +0530",
+      "category": "Agriculture, Rural and Environment"
+    },
     {
       "title": "Apply for Small / Marginal Farmer Certificate, Tamil Nadu",
       "link": "https://www.tnesevai.tn.gov.in/Citizen/PortalLogin.aspx",
@@ -126,27 +143,6 @@
       "link": "https://dlrs.bihar.gov.in/dms1/Default.aspx",
       "description": "The Directorate of Land Records and Survey in Bihar provides doorstep delivery of revenue maps. This initiative saves time and effort, ensuring citizens receive essential land records efficiently.",
       "pubDate": "Fri, 13 Dec 2024 10:02:16 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "Online Conversion of Change in Land Use type by Department of Revenue and Land Reforms, Bihar",
-      "link": "https://landconversion.bihar.gov.in",
-      "description": "This portal enables online applications for changing the land use type. The streamlined process ensures compliance with regulations while offering convenience to landowners in Bihar.",
-      "pubDate": "Thu, 21 Nov 2024 09:30:06 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "e-Mapi by Department of Revenue and Land Reforms, Bihar",
-      "link": "https://emapi.bihar.gov.in/default.aspx?ReturnUrl=%2f",
-      "description": "The e-Mapi service by the Bihar government offers access to digitized land maps. This tool is valuable for property verification, planning, and resolving disputes, making land-related information readily accessible to citizens.",
-      "pubDate": "Mon, 18 Nov 2024 16:58:03 +0530",
-      "category": "Agriculture, Rural and Environment"
-    },
-    {
-      "title": "Online Bhu-Lagaan Payment by Department of Revenue and Land Reforms, Bihar",
-      "link": "https://www.bhulagan.bihar.gov.in/",
-      "description": "The Online Bhu-Lagaan Payment system allows citizens to pay land revenue conveniently. This service enhances transparency and reduces the hassle of offline payments by providing a secure and accessible platform.",
-      "pubDate": "Mon, 18 Nov 2024 16:50:01 +0530",
       "category": "Agriculture, Rural and Environment"
     }
   ]
